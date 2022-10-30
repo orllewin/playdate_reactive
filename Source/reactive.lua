@@ -42,7 +42,6 @@ audFrame = 0
 audScale = 0
 
 donutTime = 0
-donut = true
 drawDonut = false
 donutModeAllowed = false
 roll = false
@@ -52,7 +51,7 @@ function playdate.upButtonDown() iX -= 1 end
 function playdate.downButtonDown() iX += 1 end
 function playdate.leftButtonDown() iY -= 1 end 
 function playdate.rightButtonDown() iY += 1 end 
-function playdate.BButtonDown() accelerometerMode = not accelerometerMode end
+function playdate.BButtonDown() wireframeAllowed = not wireframeAllowed end
 function playdate.AButtonDown() donutModeAllowed = not donutModeAllowed end
 
 function playdate.update()
@@ -138,11 +137,11 @@ function playdate.update()
 				drawDonut = false
 			end
 		end
-				
+		
 		if(drawDonut) then
 		
 			playdate.graphics.setColor(playdate.graphics.kColorWhite)
-			playdate.graphics.setDitherPattern(0.6, playdate.graphics.image.kDitherTypeBayer4x4)
+			playdate.graphics.setDitherPattern(0.7, playdate.graphics.image.kDitherTypeBayer4x4)
 			donutTime += audScale/150
 			for i = 90, 0, -1  do
 			
@@ -150,17 +149,38 @@ function playdate.update()
 				local Q = sin(q)
 				
 				local b
-				if(donut)then
-					b = i % 6 + donutTime + i
+				if(roll) then
+					if(rollDirection > 0)then
+						b = i % 6 + donutTime + i
+					else
+						b = i % 6 - donutTime + i
+					end
 				else
-					b = i % 6 + donutTime
+					b = i % 6 + i
 				end
 			
 				local p = i + donutTime
 				local z = 5 + cos(b) * (audScale/8) + cos(p) * Q
 				local s = 80 / z / z
-			
-				if(not wireframeAllowed or not filled) then
+							
+				if(filled) then
+					playdate.graphics.setColor(playdate.graphics.kColorWhite)
+					if(z < 3) then
+						playdate.graphics.setDitherPattern(0.1, playdate.graphics.image.kDitherTypeBayer4x4)
+					elseif(z < 4) then
+						playdate.graphics.setDitherPattern(0.2, playdate.graphics.image.kDitherTypeBayer4x4)
+					elseif(z < 5) then
+						playdate.graphics.setDitherPattern(0.4, playdate.graphics.image.kDitherTypeBayer4x4)
+					elseif(z < 6) then
+						playdate.graphics.setDitherPattern(0.5, playdate.graphics.image.kDitherTypeBayer4x4)
+					elseif(z < 7) then
+						playdate.graphics.setDitherPattern(0.6, playdate.graphics.image.kDitherTypeBayer4x4)
+					elseif(z < 8) then
+						playdate.graphics.setDitherPattern(0.8, playdate.graphics.image.kDitherTypeBayer4x4)
+					else
+						playdate.graphics.setDitherPattern(0.8, playdate.graphics.image.kDitherTypeBayer4x4)
+					end
+					
 					playdate.graphics.fillCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + 200 * (cos(q)- cos(b+donutTime))/z), s + (audScale/3))
 				else
 					playdate.graphics.setColor(playdate.graphics.kColorWhite)
