@@ -1,0 +1,523 @@
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 27, 1	@ Tag_ABI_HardFP_use
+   3              		.eabi_attribute 28, 1	@ Tag_ABI_VFP_args
+   4              		.eabi_attribute 20, 1	@ Tag_ABI_FP_denormal
+   5              		.eabi_attribute 21, 1	@ Tag_ABI_FP_exceptions
+   6              		.eabi_attribute 23, 3	@ Tag_ABI_FP_number_model
+   7              		.eabi_attribute 24, 1	@ Tag_ABI_align8_needed
+   8              		.eabi_attribute 25, 1	@ Tag_ABI_align8_preserved
+   9              		.eabi_attribute 26, 1	@ Tag_ABI_enum_size
+  10              		.eabi_attribute 30, 2	@ Tag_ABI_optimization_goals
+  11              		.eabi_attribute 34, 1	@ Tag_CPU_unaligned_access
+  12              		.eabi_attribute 18, 4	@ Tag_ABI_PCS_wchar_t
+  13              		.file	"mini3d.c"
+  14              	@ GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) 
+  15              	@	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0
+  16              	
+  17              	@ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+  18              	@ options passed:  -I . -I . -I /Users/orllewin/Developer/PlaydateSDK/C_API
+  19              	@ -I mini3d -imultilib thumb/v7e-m+fp/hard
+  20              	@ -iprefix /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1
+  21              	@ -isysroot /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi
+  22              	@ -MD build/mini3d/mini3d.d -MF build/dep/mini3d.o.d -MP
+  23              	@ -MQ build/mini3d/mini3d.o -D__USES_INITFINI__ -D __FPU_USED=1
+  24              	@ -D TARGET_PLAYDATE=1 -D TARGET_EXTENSION=1 mini3d/mini3d.c -mthumb
+  25              	@ -mcpu=cortex-m7 -mfloat-abi=hard -mfpu=fpv5-sp-d16 -march=armv7e-m+fpv5
+  26              	@ -auxbase-strip build/mini3d/mini3d.o -g -gdwarf-2 -O2 -Wall -Wno-unused
+  27              	@ -Wstrict-prototypes -Wno-unknown-pragmas -Wdouble-promotion
+  28              	@ -falign-functions=16 -fomit-frame-pointer -fverbose-asm
+  29              	@ -ffunction-sections -fdata-sections
+  30              	@ options enabled:  -faggressive-loop-optimizations -falign-functions
+  31              	@ -falign-jumps -falign-labels -falign-loops -fassume-phsa -fauto-inc-dec
+  32              	@ -fbranch-count-reg -fcaller-saves -fcombine-stack-adjustments -fcommon
+  33              	@ -fcompare-elim -fcprop-registers -fcrossjumping -fcse-follow-jumps
+  34              	@ -fdata-sections -fdefer-pop -fdelete-null-pointer-checks -fdevirtualize
+  35              	@ -fdevirtualize-speculatively -fdwarf2-cfi-asm -fearly-inlining
+  36              	@ -feliminate-unused-debug-types -fexpensive-optimizations
+  37              	@ -fforward-propagate -ffp-int-builtin-inexact -ffunction-cse
+  38              	@ -ffunction-sections -fgcse -fgcse-lm -fgnu-runtime -fgnu-unique
+  39              	@ -fguess-branch-probability -fhoist-adjacent-loads -fident -fif-conversion
+  40              	@ -fif-conversion2 -findirect-inlining -finline -finline-atomics
+  41              	@ -finline-functions-called-once -finline-small-functions -fipa-bit-cp
+  42              	@ -fipa-cp -fipa-icf -fipa-icf-functions -fipa-icf-variables -fipa-profile
+  43              	@ -fipa-pure-const -fipa-ra -fipa-reference -fipa-reference-addressable
+  44              	@ -fipa-sra -fipa-stack-alignment -fipa-vrp -fira-hoist-pressure
+  45              	@ -fira-share-save-slots -fira-share-spill-slots
+  46              	@ -fisolate-erroneous-paths-dereference -fivopts -fkeep-static-consts
+  47              	@ -fleading-underscore -flifetime-dse -flra-remat -flto-odr-type-merging
+  48              	@ -fmath-errno -fmerge-constants -fmerge-debug-strings
+  49              	@ -fmove-loop-invariants -fomit-frame-pointer -foptimize-sibling-calls
+  50              	@ -foptimize-strlen -fpartial-inlining -fpeephole -fpeephole2 -fplt
+  51              	@ -fprefetch-loop-arrays -freg-struct-return -freorder-blocks
+  52              	@ -freorder-functions -frerun-cse-after-loop
+  53              	@ -fsched-critical-path-heuristic -fsched-dep-count-heuristic
+  54              	@ -fsched-group-heuristic -fsched-interblock -fsched-last-insn-heuristic
+  55              	@ -fsched-pressure -fsched-rank-heuristic -fsched-spec
+  56              	@ -fsched-spec-insn-heuristic -fsched-stalled-insns-dep -fschedule-insns
+  57              	@ -fschedule-insns2 -fsection-anchors -fsemantic-interposition
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 2
+
+
+  58              	@ -fshow-column -fshrink-wrap -fshrink-wrap-separate -fsigned-zeros
+  59              	@ -fsplit-ivs-in-unroller -fsplit-wide-types -fssa-backprop -fssa-phiopt
+  60              	@ -fstdarg-opt -fstore-merging -fstrict-aliasing
+  61              	@ -fstrict-volatile-bitfields -fsync-libcalls -fthread-jumps
+  62              	@ -ftoplevel-reorder -ftrapping-math -ftree-bit-ccp -ftree-builtin-call-dce
+  63              	@ -ftree-ccp -ftree-ch -ftree-coalesce-vars -ftree-copy-prop -ftree-cselim
+  64              	@ -ftree-dce -ftree-dominator-opts -ftree-dse -ftree-forwprop -ftree-fre
+  65              	@ -ftree-loop-if-convert -ftree-loop-im -ftree-loop-ivcanon
+  66              	@ -ftree-loop-optimize -ftree-parallelize-loops= -ftree-phiprop -ftree-pre
+  67              	@ -ftree-pta -ftree-reassoc -ftree-scev-cprop -ftree-sink -ftree-slsr
+  68              	@ -ftree-sra -ftree-switch-conversion -ftree-tail-merge -ftree-ter
+  69              	@ -ftree-vrp -funit-at-a-time -fvar-tracking -fvar-tracking-assignments
+  70              	@ -fverbose-asm -fzero-initialized-in-bss -masm-syntax-unified -mbe32
+  71              	@ -mlittle-endian -mpic-data-is-text-relative -msched-prolog -mthumb
+  72              	@ -munaligned-access -mvectorize-with-neon-quad
+  73              	
+  74              		.text
+  75              	.Ltext0:
+  76              		.cfi_sections	.debug_frame
+  77              		.section	.text.mini3d_setRealloc,"ax",%progbits
+  78              		.align	1
+  79              		.p2align 4,,15
+  80              		.global	mini3d_setRealloc
+  81              		.arch armv7e-m
+  82              		.syntax unified
+  83              		.thumb
+  84              		.thumb_func
+  85              		.fpu fpv5-sp-d16
+  86              		.type	mini3d_setRealloc, %function
+  87              	mini3d_setRealloc:
+  88              	.LVL0:
+  89              	.LFB0:
+  90              		.file 1 "mini3d/mini3d.c"
+   1:mini3d/mini3d.c **** //
+   2:mini3d/mini3d.c **** //  mini3d.c
+   3:mini3d/mini3d.c **** //  Extension
+   4:mini3d/mini3d.c **** //
+   5:mini3d/mini3d.c **** //  Created by Dave Hayden on 10/20/15.
+   6:mini3d/mini3d.c **** //  Copyright © 2015 Panic, Inc. All rights reserved.
+   7:mini3d/mini3d.c **** //
+   8:mini3d/mini3d.c **** 
+   9:mini3d/mini3d.c **** #include "mini3d.h"
+  10:mini3d/mini3d.c **** 
+  11:mini3d/mini3d.c **** void* (*m3d_realloc)(void* ptr, size_t size);
+  12:mini3d/mini3d.c **** 
+  13:mini3d/mini3d.c **** void mini3d_setRealloc(void* (*realloc)(void* ptr, size_t size))
+  14:mini3d/mini3d.c **** {
+  91              		.loc 1 14 1 view -0
+  92              		.cfi_startproc
+  93              		@ args = 0, pretend = 0, frame = 0
+  94              		@ frame_needed = 0, uses_anonymous_args = 0
+  95              		@ link register save eliminated.
+  15:mini3d/mini3d.c **** 	m3d_realloc = realloc;
+  96              		.loc 1 15 2 view .LVU1
+  97              	@ mini3d/mini3d.c:15: 	m3d_realloc = realloc;
+  98              		.loc 1 15 14 is_stmt 0 view .LVU2
+  99 0000 014B     		ldr	r3, .L3	@ tmp111,
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 3
+
+
+ 100 0002 1860     		str	r0, [r3]	@ tmp112, m3d_realloc
+ 101              	@ mini3d/mini3d.c:16: }
+  16:mini3d/mini3d.c **** }
+ 102              		.loc 1 16 1 view .LVU3
+ 103 0004 7047     		bx	lr	@
+ 104              	.L4:
+ 105 0006 00BF     		.align	2
+ 106              	.L3:
+ 107 0008 00000000 		.word	m3d_realloc
+ 108              		.cfi_endproc
+ 109              	.LFE0:
+ 110              		.size	mini3d_setRealloc, .-mini3d_setRealloc
+ 111              		.comm	m3d_realloc,4,4
+ 112              		.text
+ 113              	.Letext0:
+ 114              		.file 2 "/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/lib/gcc/arm-none-eabi/9.2.1/include
+ 115              		.file 3 "mini3d/mini3d.h"
+ 116              		.section	.debug_info,"",%progbits
+ 117              	.Ldebug_info0:
+ 118 0000 AC000000 		.4byte	0xac
+ 119 0004 0200     		.2byte	0x2
+ 120 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 121 000a 04       		.byte	0x4
+ 122 000b 01       		.uleb128 0x1
+ 123 000c 24000000 		.4byte	.LASF3
+ 124 0010 0C       		.byte	0xc
+ 125 0011 00000000 		.4byte	.LASF4
+ 126 0015 49010000 		.4byte	.LASF5
+ 127 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 128 001d 00000000 		.4byte	0
+ 129 0021 00000000 		.4byte	0
+ 130 0025 00000000 		.4byte	.Ldebug_line0
+ 131 0029 02       		.uleb128 0x2
+ 132 002a 04       		.byte	0x4
+ 133 002b 05       		.byte	0x5
+ 134 002c 696E7400 		.ascii	"int\000"
+ 135 0030 03       		.uleb128 0x3
+ 136 0031 1D000000 		.4byte	.LASF6
+ 137 0035 02       		.byte	0x2
+ 138 0036 D1       		.byte	0xd1
+ 139 0037 17       		.byte	0x17
+ 140 0038 3C000000 		.4byte	0x3c
+ 141 003c 04       		.uleb128 0x4
+ 142 003d 04       		.byte	0x4
+ 143 003e 07       		.byte	0x7
+ 144 003f 10000000 		.4byte	.LASF0
+ 145 0043 04       		.uleb128 0x4
+ 146 0044 08       		.byte	0x8
+ 147 0045 05       		.byte	0x5
+ 148 0046 70010000 		.4byte	.LASF1
+ 149 004a 04       		.uleb128 0x4
+ 150 004b 08       		.byte	0x8
+ 151 004c 04       		.byte	0x4
+ 152 004d 2B010000 		.4byte	.LASF2
+ 153 0051 05       		.uleb128 0x5
+ 154 0052 01       		.byte	0x1
+ 155 0053 66000000 		.4byte	0x66
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 4
+
+
+ 156 0057 66000000 		.4byte	0x66
+ 157 005b 06       		.uleb128 0x6
+ 158 005c 66000000 		.4byte	0x66
+ 159 0060 06       		.uleb128 0x6
+ 160 0061 30000000 		.4byte	0x30
+ 161 0065 00       		.byte	0
+ 162 0066 07       		.uleb128 0x7
+ 163 0067 04       		.byte	0x4
+ 164 0068 08       		.uleb128 0x8
+ 165 0069 17010000 		.4byte	.LASF7
+ 166 006d 03       		.byte	0x3
+ 167 006e 17       		.byte	0x17
+ 168 006f 10       		.byte	0x10
+ 169 0070 76000000 		.4byte	0x76
+ 170 0074 01       		.byte	0x1
+ 171 0075 01       		.byte	0x1
+ 172 0076 09       		.uleb128 0x9
+ 173 0077 04       		.byte	0x4
+ 174 0078 51000000 		.4byte	0x51
+ 175 007c 0A       		.uleb128 0xa
+ 176 007d 68000000 		.4byte	0x68
+ 177 0081 01       		.byte	0x1
+ 178 0082 0B       		.byte	0xb
+ 179 0083 09       		.byte	0x9
+ 180 0084 05       		.byte	0x5
+ 181 0085 03       		.byte	0x3
+ 182 0086 00000000 		.4byte	m3d_realloc
+ 183 008a 0B       		.uleb128 0xb
+ 184 008b 01       		.byte	0x1
+ 185 008c 37010000 		.4byte	.LASF8
+ 186 0090 01       		.byte	0x1
+ 187 0091 0D       		.byte	0xd
+ 188 0092 06       		.byte	0x6
+ 189 0093 01       		.byte	0x1
+ 190 0094 00000000 		.4byte	.LFB0
+ 191 0098 0C000000 		.4byte	.LFE0
+ 192 009c 02       		.byte	0x2
+ 193 009d 7D       		.byte	0x7d
+ 194 009e 00       		.sleb128 0
+ 195 009f 01       		.byte	0x1
+ 196 00a0 0C       		.uleb128 0xc
+ 197 00a1 23010000 		.4byte	.LASF9
+ 198 00a5 01       		.byte	0x1
+ 199 00a6 0D       		.byte	0xd
+ 200 00a7 20       		.byte	0x20
+ 201 00a8 76000000 		.4byte	0x76
+ 202 00ac 01       		.byte	0x1
+ 203 00ad 50       		.byte	0x50
+ 204 00ae 00       		.byte	0
+ 205 00af 00       		.byte	0
+ 206              		.section	.debug_abbrev,"",%progbits
+ 207              	.Ldebug_abbrev0:
+ 208 0000 01       		.uleb128 0x1
+ 209 0001 11       		.uleb128 0x11
+ 210 0002 01       		.byte	0x1
+ 211 0003 25       		.uleb128 0x25
+ 212 0004 0E       		.uleb128 0xe
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 5
+
+
+ 213 0005 13       		.uleb128 0x13
+ 214 0006 0B       		.uleb128 0xb
+ 215 0007 03       		.uleb128 0x3
+ 216 0008 0E       		.uleb128 0xe
+ 217 0009 1B       		.uleb128 0x1b
+ 218 000a 0E       		.uleb128 0xe
+ 219 000b 55       		.uleb128 0x55
+ 220 000c 06       		.uleb128 0x6
+ 221 000d 11       		.uleb128 0x11
+ 222 000e 01       		.uleb128 0x1
+ 223 000f 52       		.uleb128 0x52
+ 224 0010 01       		.uleb128 0x1
+ 225 0011 10       		.uleb128 0x10
+ 226 0012 06       		.uleb128 0x6
+ 227 0013 00       		.byte	0
+ 228 0014 00       		.byte	0
+ 229 0015 02       		.uleb128 0x2
+ 230 0016 24       		.uleb128 0x24
+ 231 0017 00       		.byte	0
+ 232 0018 0B       		.uleb128 0xb
+ 233 0019 0B       		.uleb128 0xb
+ 234 001a 3E       		.uleb128 0x3e
+ 235 001b 0B       		.uleb128 0xb
+ 236 001c 03       		.uleb128 0x3
+ 237 001d 08       		.uleb128 0x8
+ 238 001e 00       		.byte	0
+ 239 001f 00       		.byte	0
+ 240 0020 03       		.uleb128 0x3
+ 241 0021 16       		.uleb128 0x16
+ 242 0022 00       		.byte	0
+ 243 0023 03       		.uleb128 0x3
+ 244 0024 0E       		.uleb128 0xe
+ 245 0025 3A       		.uleb128 0x3a
+ 246 0026 0B       		.uleb128 0xb
+ 247 0027 3B       		.uleb128 0x3b
+ 248 0028 0B       		.uleb128 0xb
+ 249 0029 39       		.uleb128 0x39
+ 250 002a 0B       		.uleb128 0xb
+ 251 002b 49       		.uleb128 0x49
+ 252 002c 13       		.uleb128 0x13
+ 253 002d 00       		.byte	0
+ 254 002e 00       		.byte	0
+ 255 002f 04       		.uleb128 0x4
+ 256 0030 24       		.uleb128 0x24
+ 257 0031 00       		.byte	0
+ 258 0032 0B       		.uleb128 0xb
+ 259 0033 0B       		.uleb128 0xb
+ 260 0034 3E       		.uleb128 0x3e
+ 261 0035 0B       		.uleb128 0xb
+ 262 0036 03       		.uleb128 0x3
+ 263 0037 0E       		.uleb128 0xe
+ 264 0038 00       		.byte	0
+ 265 0039 00       		.byte	0
+ 266 003a 05       		.uleb128 0x5
+ 267 003b 15       		.uleb128 0x15
+ 268 003c 01       		.byte	0x1
+ 269 003d 27       		.uleb128 0x27
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 6
+
+
+ 270 003e 0C       		.uleb128 0xc
+ 271 003f 49       		.uleb128 0x49
+ 272 0040 13       		.uleb128 0x13
+ 273 0041 01       		.uleb128 0x1
+ 274 0042 13       		.uleb128 0x13
+ 275 0043 00       		.byte	0
+ 276 0044 00       		.byte	0
+ 277 0045 06       		.uleb128 0x6
+ 278 0046 05       		.uleb128 0x5
+ 279 0047 00       		.byte	0
+ 280 0048 49       		.uleb128 0x49
+ 281 0049 13       		.uleb128 0x13
+ 282 004a 00       		.byte	0
+ 283 004b 00       		.byte	0
+ 284 004c 07       		.uleb128 0x7
+ 285 004d 0F       		.uleb128 0xf
+ 286 004e 00       		.byte	0
+ 287 004f 0B       		.uleb128 0xb
+ 288 0050 0B       		.uleb128 0xb
+ 289 0051 00       		.byte	0
+ 290 0052 00       		.byte	0
+ 291 0053 08       		.uleb128 0x8
+ 292 0054 34       		.uleb128 0x34
+ 293 0055 00       		.byte	0
+ 294 0056 03       		.uleb128 0x3
+ 295 0057 0E       		.uleb128 0xe
+ 296 0058 3A       		.uleb128 0x3a
+ 297 0059 0B       		.uleb128 0xb
+ 298 005a 3B       		.uleb128 0x3b
+ 299 005b 0B       		.uleb128 0xb
+ 300 005c 39       		.uleb128 0x39
+ 301 005d 0B       		.uleb128 0xb
+ 302 005e 49       		.uleb128 0x49
+ 303 005f 13       		.uleb128 0x13
+ 304 0060 3F       		.uleb128 0x3f
+ 305 0061 0C       		.uleb128 0xc
+ 306 0062 3C       		.uleb128 0x3c
+ 307 0063 0C       		.uleb128 0xc
+ 308 0064 00       		.byte	0
+ 309 0065 00       		.byte	0
+ 310 0066 09       		.uleb128 0x9
+ 311 0067 0F       		.uleb128 0xf
+ 312 0068 00       		.byte	0
+ 313 0069 0B       		.uleb128 0xb
+ 314 006a 0B       		.uleb128 0xb
+ 315 006b 49       		.uleb128 0x49
+ 316 006c 13       		.uleb128 0x13
+ 317 006d 00       		.byte	0
+ 318 006e 00       		.byte	0
+ 319 006f 0A       		.uleb128 0xa
+ 320 0070 34       		.uleb128 0x34
+ 321 0071 00       		.byte	0
+ 322 0072 47       		.uleb128 0x47
+ 323 0073 13       		.uleb128 0x13
+ 324 0074 3A       		.uleb128 0x3a
+ 325 0075 0B       		.uleb128 0xb
+ 326 0076 3B       		.uleb128 0x3b
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 7
+
+
+ 327 0077 0B       		.uleb128 0xb
+ 328 0078 39       		.uleb128 0x39
+ 329 0079 0B       		.uleb128 0xb
+ 330 007a 02       		.uleb128 0x2
+ 331 007b 0A       		.uleb128 0xa
+ 332 007c 00       		.byte	0
+ 333 007d 00       		.byte	0
+ 334 007e 0B       		.uleb128 0xb
+ 335 007f 2E       		.uleb128 0x2e
+ 336 0080 01       		.byte	0x1
+ 337 0081 3F       		.uleb128 0x3f
+ 338 0082 0C       		.uleb128 0xc
+ 339 0083 03       		.uleb128 0x3
+ 340 0084 0E       		.uleb128 0xe
+ 341 0085 3A       		.uleb128 0x3a
+ 342 0086 0B       		.uleb128 0xb
+ 343 0087 3B       		.uleb128 0x3b
+ 344 0088 0B       		.uleb128 0xb
+ 345 0089 39       		.uleb128 0x39
+ 346 008a 0B       		.uleb128 0xb
+ 347 008b 27       		.uleb128 0x27
+ 348 008c 0C       		.uleb128 0xc
+ 349 008d 11       		.uleb128 0x11
+ 350 008e 01       		.uleb128 0x1
+ 351 008f 12       		.uleb128 0x12
+ 352 0090 01       		.uleb128 0x1
+ 353 0091 40       		.uleb128 0x40
+ 354 0092 0A       		.uleb128 0xa
+ 355 0093 9742     		.uleb128 0x2117
+ 356 0095 0C       		.uleb128 0xc
+ 357 0096 00       		.byte	0
+ 358 0097 00       		.byte	0
+ 359 0098 0C       		.uleb128 0xc
+ 360 0099 05       		.uleb128 0x5
+ 361 009a 00       		.byte	0
+ 362 009b 03       		.uleb128 0x3
+ 363 009c 0E       		.uleb128 0xe
+ 364 009d 3A       		.uleb128 0x3a
+ 365 009e 0B       		.uleb128 0xb
+ 366 009f 3B       		.uleb128 0x3b
+ 367 00a0 0B       		.uleb128 0xb
+ 368 00a1 39       		.uleb128 0x39
+ 369 00a2 0B       		.uleb128 0xb
+ 370 00a3 49       		.uleb128 0x49
+ 371 00a4 13       		.uleb128 0x13
+ 372 00a5 02       		.uleb128 0x2
+ 373 00a6 0A       		.uleb128 0xa
+ 374 00a7 00       		.byte	0
+ 375 00a8 00       		.byte	0
+ 376 00a9 00       		.byte	0
+ 377              		.section	.debug_aranges,"",%progbits
+ 378 0000 1C000000 		.4byte	0x1c
+ 379 0004 0200     		.2byte	0x2
+ 380 0006 00000000 		.4byte	.Ldebug_info0
+ 381 000a 04       		.byte	0x4
+ 382 000b 00       		.byte	0
+ 383 000c 0000     		.2byte	0
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 8
+
+
+ 384 000e 0000     		.2byte	0
+ 385 0010 00000000 		.4byte	.LFB0
+ 386 0014 0C000000 		.4byte	.LFE0-.LFB0
+ 387 0018 00000000 		.4byte	0
+ 388 001c 00000000 		.4byte	0
+ 389              		.section	.debug_ranges,"",%progbits
+ 390              	.Ldebug_ranges0:
+ 391 0000 00000000 		.4byte	.LFB0
+ 392 0004 0C000000 		.4byte	.LFE0
+ 393 0008 00000000 		.4byte	0
+ 394 000c 00000000 		.4byte	0
+ 395              		.section	.debug_line,"",%progbits
+ 396              	.Ldebug_line0:
+ 397 0000 B9000000 		.section	.debug_str,"MS",%progbits,1
+ 397      03009800 
+ 397      00000201 
+ 397      FB0E0D00 
+ 397      01010101 
+ 398              	.LASF4:
+ 399 0000 6D696E69 		.ascii	"mini3d/mini3d.c\000"
+ 399      33642F6D 
+ 399      696E6933 
+ 399      642E6300 
+ 400              	.LASF0:
+ 401 0010 756E7369 		.ascii	"unsigned int\000"
+ 401      676E6564 
+ 401      20696E74 
+ 401      00
+ 402              	.LASF6:
+ 403 001d 73697A65 		.ascii	"size_t\000"
+ 403      5F7400
+ 404              	.LASF3:
+ 405 0024 474E5520 		.ascii	"GNU C17 9.2.1 20191025 (release) [ARM/arm-9-branch "
+ 405      43313720 
+ 405      392E322E 
+ 405      31203230 
+ 405      31393130 
+ 406 0057 72657669 		.ascii	"revision 277599] -mthumb -mcpu=cortex-m7 -mfloat-ab"
+ 406      73696F6E 
+ 406      20323737 
+ 406      3539395D 
+ 406      202D6D74 
+ 407 008a 693D6861 		.ascii	"i=hard -mfpu=fpv5-sp-d16 -march=armv7e-m+fpv5 -g -g"
+ 407      7264202D 
+ 407      6D667075 
+ 407      3D667076 
+ 407      352D7370 
+ 408 00bd 64776172 		.ascii	"dwarf-2 -O2 -falign-functions=16 -fomit-frame-point"
+ 408      662D3220 
+ 408      2D4F3220 
+ 408      2D66616C 
+ 408      69676E2D 
+ 409 00f0 6572202D 		.ascii	"er -ffunction-sections -fdata-sections\000"
+ 409      6666756E 
+ 409      6374696F 
+ 409      6E2D7365 
+ 409      6374696F 
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 9
+
+
+ 410              	.LASF7:
+ 411 0117 6D33645F 		.ascii	"m3d_realloc\000"
+ 411      7265616C 
+ 411      6C6F6300 
+ 412              	.LASF9:
+ 413 0123 7265616C 		.ascii	"realloc\000"
+ 413      6C6F6300 
+ 414              	.LASF2:
+ 415 012b 6C6F6E67 		.ascii	"long double\000"
+ 415      20646F75 
+ 415      626C6500 
+ 416              	.LASF8:
+ 417 0137 6D696E69 		.ascii	"mini3d_setRealloc\000"
+ 417      33645F73 
+ 417      65745265 
+ 417      616C6C6F 
+ 417      6300
+ 418              	.LASF5:
+ 419 0149 2F557365 		.ascii	"/Users/orllewin/projects/playdate/Cube\000"
+ 419      72732F6F 
+ 419      726C6C65 
+ 419      77696E2F 
+ 419      70726F6A 
+ 420              	.LASF1:
+ 421 0170 6C6F6E67 		.ascii	"long long int\000"
+ 421      206C6F6E 
+ 421      6720696E 
+ 421      7400
+ 422              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM
+ARM GAS  /var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s 			page 10
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 mini3d.c
+/var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s:78     .text.mini3d_setRealloc:0000000000000000 $t
+/var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s:87     .text.mini3d_setRealloc:0000000000000000 mini3d_setRealloc
+/var/folders/cs/83z6p2tj4w57s6p2rt8nwfp00000gn/T//ccLxWeEx.s:107    .text.mini3d_setRealloc:0000000000000008 $d
+                            *COM*:0000000000000004 m3d_realloc
+
+NO UNDEFINED SYMBOLS

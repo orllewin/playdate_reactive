@@ -1,0 +1,1369 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+                              build/mini3d/scene.o (qsort)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+                              build/luaglue.o (strcmp)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o) (__call_exitprocs)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o) (atexit)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o) (__register_exitproc)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                              build/luaglue.o (cosf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                              build/luaglue.o (sinf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__ieee754_rem_pio2f)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_cosf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o) (__kernel_sinf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o) (fabsf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (floorf)
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
+
+Allocating common symbols
+Common symbol       size              file
+
+__lock___atexit_recursive_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___arc4random_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___env_recursive_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+m3d_realloc         0x4               build/mini3d/mini3d.o
+__lock___at_quick_exit_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___dd_hash_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex
+                    0x1               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000000000       0x74 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x0000000000000000        0x0 build/main.o
+ .data          0x0000000000000000        0x0 build/main.o
+ .bss           0x0000000000000000        0x0 build/main.o
+ .text          0x0000000000000000        0x0 build/mini3d/mini3d.o
+ .data          0x0000000000000000        0x0 build/mini3d/mini3d.o
+ .bss           0x0000000000000000        0x0 build/mini3d/mini3d.o
+ .text          0x0000000000000000        0x0 build/mini3d/3dmath.o
+ .data          0x0000000000000000        0x0 build/mini3d/3dmath.o
+ .bss           0x0000000000000000        0x0 build/mini3d/3dmath.o
+ .text.Vector3D_normalize
+                0x0000000000000000       0x24 build/mini3d/3dmath.o
+ .text          0x0000000000000000        0x0 build/mini3d/scene.o
+ .data          0x0000000000000000        0x0 build/mini3d/scene.o
+ .bss           0x0000000000000000        0x0 build/mini3d/scene.o
+ .text.Scene3DNode_init
+                0x0000000000000000       0x48 build/mini3d/scene.o
+ .text.Scene3DNode_setUsesZBuffer
+                0x0000000000000000       0x1c build/mini3d/scene.o
+ .text          0x0000000000000000        0x0 build/mini3d/shape.o
+ .data          0x0000000000000000        0x0 build/mini3d/shape.o
+ .bss           0x0000000000000000        0x0 build/mini3d/shape.o
+ .text          0x0000000000000000        0x0 build/mini3d/render.o
+ .data          0x0000000000000000        0x0 build/mini3d/render.o
+ .bss           0x0000000000000000        0x0 build/mini3d/render.o
+ .text          0x0000000000000000        0x0 build/luaglue.o
+ .data          0x0000000000000000        0x0 build/luaglue.o
+ .bss           0x0000000000000000        0x0 build/luaglue.o
+ .text          0x0000000000000000        0x0 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .data          0x0000000000000000        0x0 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .bss           0x0000000000000000        0x0 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .text._malloc_r
+                0x0000000000000000        0xc build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .text._realloc_r
+                0x0000000000000000       0x10 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .text._free_r  0x0000000000000000       0x10 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x0000000000000000       0x48 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000000       0xcc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x0000000000000000        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .text          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .data          0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .bss           0x0000000000000000        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+EXTRAM           0x0000000060000000 0x0000000000800000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD build/main.o
+LOAD build/mini3d/mini3d.o
+LOAD build/mini3d/3dmath.o
+LOAD build/mini3d/scene.o
+LOAD build/mini3d/shape.o
+LOAD build/mini3d/render.o
+LOAD build/luaglue.o
+LOAD build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+START GROUP
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+START GROUP
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+END GROUP
+
+.capi           0x0000000060000000        0xc
+ *(.capi_handler)
+ .capi_handler  0x0000000060000000        0x4 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                0x0000000060000000                PD_eventHandler
+ *(.bss_start)
+ .bss_start     0x0000000060000004        0x4 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                0x0000000060000004                _bss_start
+ *(.bss_end)
+ .bss_end       0x0000000060000008        0x4 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                0x0000000060000008                _bss_end
+
+.text           0x0000000060000020      0xa88
+ *(.text)
+ .text          0x0000000060000020       0x40 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000060000060      0x2dc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+                0x0000000060000068                strcmp
+ *(.init)
+ .init          0x000000006000033c        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000006000033c                _init
+ .init          0x0000000060000340        0x8 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x0000000060000348        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000060000348                _fini
+ .fini          0x000000006000034c        0x8 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.point_new.str1.4
+                0x0000000060000354        0xc build/luaglue.o
+ .rodata.matrix_newRotation.str1.4
+                0x0000000060000360        0xd build/luaglue.o
+ *fill*         0x000000006000036d        0x3 
+ .rodata.shape_new.str1.4
+                0x0000000060000370        0xc build/luaglue.o
+ .rodata.scene_new.str1.4
+                0x000000006000037c        0xc build/luaglue.o
+ .rodata.get3DObj.str1.4
+                0x0000000060000388       0x31 build/luaglue.o
+ *fill*         0x00000000600003b9        0x3 
+ .rodata.node_setVisible.str1.4
+                0x00000000600003bc       0x10 build/luaglue.o
+ .rodata.register3D.str1.4
+                0x00000000600003cc       0x2c build/luaglue.o
+ .rodata.str1.4
+                0x00000000600003f8      0x180 build/luaglue.o
+ .rodata.lib3DMatrix
+                0x0000000060000578       0x30 build/luaglue.o
+ .rodata.lib3DNode
+                0x00000000600005a8       0x68 build/luaglue.o
+ .rodata.lib3DPoint
+                0x0000000060000610       0x30 build/luaglue.o
+ .rodata.lib3DScene
+                0x0000000060000640       0x60 build/luaglue.o
+ .rodata.lib3DShape
+                0x00000000600006a0       0x30 build/luaglue.o
+ .rodata._global_impure_ptr
+                0x00000000600006d0        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                0x00000000600006d0                _global_impure_ptr
+ .rodata.npio2_hw
+                0x00000000600006d4       0x80 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0000000060000754      0x318 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x0000000060000a6c       0x2c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x0000000060000a98        0xc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ *(.eh_frame*)
+ .eh_frame      0x0000000060000aa4        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000060000aa4        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+
+.glue_7         0x0000000060000aa8        0x0
+ .glue_7        0x0000000060000aa8        0x0 linker stubs
+
+.glue_7t        0x0000000060000aa8        0x0
+ .glue_7t       0x0000000060000aa8        0x0 linker stubs
+
+.vfp11_veneer   0x0000000060000aa8        0x0
+ .vfp11_veneer  0x0000000060000aa8        0x0 linker stubs
+
+.v4_bx          0x0000000060000aa8        0x0
+ .v4_bx         0x0000000060000aa8        0x0 linker stubs
+
+.iplt           0x0000000060000aa8        0x0
+ .iplt          0x0000000060000aa8        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.text.eventHandler
+                0x0000000060000ab0       0x14
+ .text.eventHandler
+                0x0000000060000ab0       0x14 build/main.o
+                0x0000000060000ab0                eventHandler
+
+.text.mini3d_setRealloc
+                0x0000000060000ad0        0xc
+ .text.mini3d_setRealloc
+                0x0000000060000ad0        0xc build/mini3d/mini3d.o
+                0x0000000060000ad0                mini3d_setRealloc
+
+.text.Matrix3DMake
+                0x0000000060000ae0       0x40
+ .text.Matrix3DMake
+                0x0000000060000ae0       0x40 build/mini3d/3dmath.o
+                0x0000000060000ae0                Matrix3DMake
+
+.text.Matrix3DMakeTranslate
+                0x0000000060000b20       0x38
+ .text.Matrix3DMakeTranslate
+                0x0000000060000b20       0x38 build/mini3d/3dmath.o
+                0x0000000060000b20                Matrix3DMakeTranslate
+
+.text.Matrix3D_multiply
+                0x0000000060000b60      0x268
+ .text.Matrix3D_multiply
+                0x0000000060000b60      0x268 build/mini3d/3dmath.o
+                0x0000000060000b60                Matrix3D_multiply
+
+.text.Matrix3D_apply
+                0x0000000060000dd0       0xac
+ .text.Matrix3D_apply
+                0x0000000060000dd0       0xac build/mini3d/3dmath.o
+                0x0000000060000dd0                Matrix3D_apply
+
+.text.pnormal   0x0000000060000e80       0x78
+ .text.pnormal  0x0000000060000e80       0x78 build/mini3d/3dmath.o
+                0x0000000060000e80                pnormal
+
+.text.Matrix3D_getDeterminant
+                0x0000000060000f00       0x58
+ .text.Matrix3D_getDeterminant
+                0x0000000060000f00       0x58 build/mini3d/3dmath.o
+                0x0000000060000f00                Matrix3D_getDeterminant
+
+.text.getShapesAtNode
+                0x0000000060000f60       0x80
+ .text.getShapesAtNode
+                0x0000000060000f60       0x80 build/mini3d/scene.o
+
+.text.compareZ  0x0000000060000fe0       0x1c
+ .text.compareZ
+                0x0000000060000fe0       0x1c build/mini3d/scene.o
+
+.text.Scene3DNode_deinit
+                0x0000000060001000       0x78
+ .text.Scene3DNode_deinit
+                0x0000000060001000       0x78 build/mini3d/scene.o
+                0x0000000060001000                Scene3DNode_deinit
+
+.text.Scene3DNode_setTransform
+                0x0000000060001080       0x30
+ .text.Scene3DNode_setTransform
+                0x0000000060001080       0x30 build/mini3d/scene.o
+                0x0000000060001080                Scene3DNode_setTransform
+
+.text.Scene3DNode_addTransform
+                0x00000000600010b0       0x68
+ .text.Scene3DNode_addTransform
+                0x00000000600010b0       0x68 build/mini3d/scene.o
+                0x00000000600010b0                Scene3DNode_addTransform
+
+.text.Scene3DNode_setColorBias
+                0x0000000060001120       0x14
+ .text.Scene3DNode_setColorBias
+                0x0000000060001120       0x14 build/mini3d/scene.o
+                0x0000000060001120                Scene3DNode_setColorBias
+
+.text.Scene3DNode_setRenderStyle
+                0x0000000060001140       0x14
+ .text.Scene3DNode_setRenderStyle
+                0x0000000060001140       0x14 build/mini3d/scene.o
+                0x0000000060001140                Scene3DNode_setRenderStyle
+
+.text.Scene3DNode_getRenderStyle
+                0x0000000060001160       0x14
+ .text.Scene3DNode_getRenderStyle
+                0x0000000060001160       0x14 build/mini3d/scene.o
+                0x0000000060001160                Scene3DNode_getRenderStyle
+
+.text.Scene3DNode_setVisible
+                0x0000000060001180       0x18
+ .text.Scene3DNode_setVisible
+                0x0000000060001180       0x18 build/mini3d/scene.o
+                0x0000000060001180                Scene3DNode_setVisible
+
+.text.Scene3DNode_addShapeWithTransform
+                0x00000000600011a0      0x158
+ .text.Scene3DNode_addShapeWithTransform
+                0x00000000600011a0      0x158 build/mini3d/scene.o
+                0x00000000600011a0                Scene3DNode_addShapeWithTransform
+
+.text.Scene3DNode_addShapeWithOffset
+                0x0000000060001300       0x44
+ .text.Scene3DNode_addShapeWithOffset
+                0x0000000060001300       0x44 build/mini3d/scene.o
+                0x0000000060001300                Scene3DNode_addShapeWithOffset
+
+.text.Scene3DNode_addShape
+                0x0000000060001350       0x34
+ .text.Scene3DNode_addShape
+                0x0000000060001350       0x34 build/mini3d/scene.o
+                0x0000000060001350                Scene3DNode_addShape
+
+.text.Scene3DNode_newChild
+                0x0000000060001390       0x74
+ .text.Scene3DNode_newChild
+                0x0000000060001390       0x74 build/mini3d/scene.o
+                0x0000000060001390                Scene3DNode_newChild
+
+.text.Scene3D_updateNode
+                0x0000000060001410      0x44c
+ .text.Scene3D_updateNode
+                0x0000000060001410      0x44c build/mini3d/scene.o
+                0x0000000060001410                Scene3D_updateNode
+
+.text.Scene3D_deinit
+                0x0000000060001860       0x24
+ .text.Scene3D_deinit
+                0x0000000060001860       0x24 build/mini3d/scene.o
+                0x0000000060001860                Scene3D_deinit
+
+.text.Scene3D_setGlobalLight
+                0x0000000060001890       0x20
+ .text.Scene3D_setGlobalLight
+                0x0000000060001890       0x20 build/mini3d/scene.o
+                0x0000000060001890                Scene3D_setGlobalLight
+
+.text.Scene3D_setCenter
+                0x00000000600018b0        0xc
+ .text.Scene3D_setCenter
+                0x00000000600018b0        0xc build/mini3d/scene.o
+                0x00000000600018b0                Scene3D_setCenter
+
+.text.Scene3D_getRootNode
+                0x00000000600018c0        0x4
+ .text.Scene3D_getRootNode
+                0x00000000600018c0        0x4 build/mini3d/scene.o
+                0x00000000600018c0                Scene3D_getRootNode
+
+.text.Scene3D_setCamera
+                0x00000000600018d0      0x2cc
+ .text.Scene3D_setCamera
+                0x00000000600018d0      0x2cc build/mini3d/scene.o
+                0x00000000600018d0                Scene3D_setCamera
+
+.text.Scene3D_init
+                0x0000000060001ba0       0xb0
+ .text.Scene3D_init
+                0x0000000060001ba0       0xb0 build/mini3d/scene.o
+                0x0000000060001ba0                Scene3D_init
+
+.text.Scene3D_drawNode
+                0x0000000060001c50      0x8e8
+ .text.Scene3D_drawNode
+                0x0000000060001c50      0x8e8 build/mini3d/scene.o
+                0x0000000060001c50                Scene3D_drawNode
+
+.text.Scene3D_draw
+                0x0000000060002540       0x68
+ .text.Scene3D_draw
+                0x0000000060002540       0x68 build/mini3d/scene.o
+                0x0000000060002540                Scene3D_draw
+
+.text.Shape3D_init
+                0x00000000600025b0       0x28
+ .text.Shape3D_init
+                0x00000000600025b0       0x28 build/mini3d/shape.o
+                0x00000000600025b0                Shape3D_init
+
+.text.Shape3D_retain
+                0x00000000600025e0        0x8
+ .text.Shape3D_retain
+                0x00000000600025e0        0x8 build/mini3d/shape.o
+                0x00000000600025e0                Shape3D_retain
+
+.text.Shape3D_release
+                0x00000000600025f0       0x38
+ .text.Shape3D_release
+                0x00000000600025f0       0x38 build/mini3d/shape.o
+                0x00000000600025f0                Shape3D_release
+
+.text.Shape3D_addPoint
+                0x0000000060002630       0x90
+ .text.Shape3D_addPoint
+                0x0000000060002630       0x90 build/mini3d/shape.o
+                0x0000000060002630                Shape3D_addPoint
+
+.text.Shape3D_addFace
+                0x00000000600026c0      0x1c0
+ .text.Shape3D_addFace
+                0x00000000600026c0      0x1c0 build/mini3d/shape.o
+                0x00000000600026c0                Shape3D_addFace
+
+.text.Shape3D_setClosed
+                0x0000000060002880       0x10
+ .text.Shape3D_setClosed
+                0x0000000060002880       0x10 build/mini3d/shape.o
+                0x0000000060002880                Shape3D_setClosed
+
+.text.Shape3D_setOrderTableSize
+                0x0000000060002890        0x4
+ .text.Shape3D_setOrderTableSize
+                0x0000000060002890        0x4 build/mini3d/shape.o
+                0x0000000060002890                Shape3D_setOrderTableSize
+
+.text.drawFragment.part.0
+                0x00000000600028a0       0xe0
+ .text.drawFragment.part.0
+                0x00000000600028a0       0xe0 build/mini3d/render.o
+
+.text.fillRange
+                0x0000000060002980       0xd8
+ .text.fillRange
+                0x0000000060002980       0xd8 build/mini3d/render.o
+
+.text.drawFragment_zbuf.part.0
+                0x0000000060002a60       0xe0
+ .text.drawFragment_zbuf.part.0
+                0x0000000060002a60       0xe0 build/mini3d/render.o
+
+.text.fillRange_zbuf
+                0x0000000060002b40      0x13c
+ .text.fillRange_zbuf
+                0x0000000060002b40      0x13c build/mini3d/render.o
+
+.text.resetZBuffer
+                0x0000000060002c80       0x44
+ .text.resetZBuffer
+                0x0000000060002c80       0x44 build/mini3d/render.o
+                0x0000000060002c80                resetZBuffer
+
+.text.drawLine_zbuf
+                0x0000000060002cd0      0x30c
+ .text.drawLine_zbuf
+                0x0000000060002cd0      0x30c build/mini3d/render.o
+                0x0000000060002cd0                drawLine_zbuf
+
+.text.drawLine  0x0000000060002fe0      0x1e8
+ .text.drawLine
+                0x0000000060002fe0      0x1e8 build/mini3d/render.o
+                0x0000000060002fe0                drawLine
+
+.text.fillTriangle
+                0x00000000600031d0      0x2ac
+ .text.fillTriangle
+                0x00000000600031d0      0x2ac build/mini3d/render.o
+                0x00000000600031d0                fillTriangle
+
+.text.fillTriangle_zbuf
+                0x0000000060003480      0x454
+ .text.fillTriangle_zbuf
+                0x0000000060003480      0x454 build/mini3d/render.o
+                0x0000000060003480                fillTriangle_zbuf
+
+.text.fillQuad  0x00000000600038e0       0x38
+ .text.fillQuad
+                0x00000000600038e0       0x38 build/mini3d/render.o
+                0x00000000600038e0                fillQuad
+
+.text.fillQuad_zbuf
+                0x0000000060003920       0x38
+ .text.fillQuad_zbuf
+                0x0000000060003920       0x38 build/mini3d/render.o
+                0x0000000060003920                fillQuad_zbuf
+
+.text.node_gc   0x0000000060003960        0x4
+ .text.node_gc  0x0000000060003960        0x4 build/luaglue.o
+
+.text.point_new
+                0x0000000060003970       0x58
+ .text.point_new
+                0x0000000060003970       0x58 build/luaglue.o
+
+.text.matrix_newRotation
+                0x00000000600039d0      0x14c
+ .text.matrix_newRotation
+                0x00000000600039d0      0x14c build/luaglue.o
+
+.text.matrix_new
+                0x0000000060003b20       0xfc
+ .text.matrix_new
+                0x0000000060003b20       0xfc build/luaglue.o
+
+.text.shape_new
+                0x0000000060003c20       0x38
+ .text.shape_new
+                0x0000000060003c20       0x38 build/luaglue.o
+
+.text.scene_new
+                0x0000000060003c60       0x34
+ .text.scene_new
+                0x0000000060003c60       0x34 build/luaglue.o
+
+.text.get3DObj  0x0000000060003ca0       0x34
+ .text.get3DObj
+                0x0000000060003ca0       0x34 build/luaglue.o
+
+.text.point_gc  0x0000000060003ce0       0x20
+ .text.point_gc
+                0x0000000060003ce0       0x20 build/luaglue.o
+
+.text.matrix_gc
+                0x0000000060003d00       0x20
+ .text.matrix_gc
+                0x0000000060003d00       0x20 build/luaglue.o
+
+.text.matrix_addTranslation
+                0x0000000060003d20       0x5c
+ .text.matrix_addTranslation
+                0x0000000060003d20       0x5c build/luaglue.o
+
+.text.matrix_mul
+                0x0000000060003d80       0x98
+ .text.matrix_mul
+                0x0000000060003d80       0x98 build/luaglue.o
+
+.text.point_mul
+                0x0000000060003e20       0x84
+ .text.point_mul
+                0x0000000060003e20       0x84 build/luaglue.o
+
+.text.point_newindex
+                0x0000000060003eb0       0x74
+ .text.point_newindex
+                0x0000000060003eb0       0x74 build/luaglue.o
+
+.text.point_index
+                0x0000000060003f30       0x78
+ .text.point_index
+                0x0000000060003f30       0x78 build/luaglue.o
+
+.text.shape_setOrderTableSize
+                0x0000000060003fb0       0x2c
+ .text.shape_setOrderTableSize
+                0x0000000060003fb0       0x2c build/luaglue.o
+
+.text.shape_setClosed
+                0x0000000060003fe0       0x2c
+ .text.shape_setClosed
+                0x0000000060003fe0       0x2c build/luaglue.o
+
+.text.shape_addFace
+                0x0000000060004010       0xa0
+ .text.shape_addFace
+                0x0000000060004010       0xa0 build/luaglue.o
+
+.text.shape_gc  0x00000000600040b0       0x18
+ .text.shape_gc
+                0x00000000600040b0       0x18 build/luaglue.o
+
+.text.node_setVisible
+                0x00000000600040d0       0x2c
+ .text.node_setVisible
+                0x00000000600040d0       0x2c build/luaglue.o
+
+.text.node_setWireframeColor
+                0x0000000060004100       0x48
+ .text.node_setWireframeColor
+                0x0000000060004100       0x48 build/luaglue.o
+
+.text.node_setWireframeMode
+                0x0000000060004150       0x60
+ .text.node_setWireframeMode
+                0x0000000060004150       0x60 build/luaglue.o
+
+.text.node_setFilled
+                0x00000000600041b0       0x48
+ .text.node_setFilled
+                0x00000000600041b0       0x48 build/luaglue.o
+
+.text.node_setColorBias
+                0x0000000060004200       0x2c
+ .text.node_setColorBias
+                0x0000000060004200       0x2c build/luaglue.o
+
+.text.node_scaleBy
+                0x0000000060004230      0x14c
+ .text.node_scaleBy
+                0x0000000060004230      0x14c build/luaglue.o
+
+.text.node_setTransform
+                0x0000000060004380       0x28
+ .text.node_setTransform
+                0x0000000060004380       0x28 build/luaglue.o
+
+.text.node_translateBy
+                0x00000000600043b0       0x74
+ .text.node_translateBy
+                0x00000000600043b0       0x74 build/luaglue.o
+
+.text.node_addTransform
+                0x0000000060004430       0x28
+ .text.node_addTransform
+                0x0000000060004430       0x28 build/luaglue.o
+
+.text.node_addShape
+                0x0000000060004460       0xc8
+ .text.node_addShape
+                0x0000000060004460       0xc8 build/luaglue.o
+
+.text.node_makeChildNode
+                0x0000000060004530       0x28
+ .text.node_makeChildNode
+                0x0000000060004530       0x28 build/luaglue.o
+
+.text.scene_setCameraUp
+                0x0000000060004560       0x8c
+ .text.scene_setCameraUp
+                0x0000000060004560       0x8c build/luaglue.o
+
+.text.scene_setCameraTarget
+                0x00000000600045f0       0x8c
+ .text.scene_setCameraTarget
+                0x00000000600045f0       0x8c build/luaglue.o
+
+.text.scene_setCameraScale
+                0x0000000060004680       0x70
+ .text.scene_setCameraScale
+                0x0000000060004680       0x70 build/luaglue.o
+
+.text.scene_setCameraOrigin
+                0x00000000600046f0       0x8c
+ .text.scene_setCameraOrigin
+                0x00000000600046f0       0x8c build/luaglue.o
+
+.text.scene_setCenter
+                0x0000000060004780       0x48
+ .text.scene_setCenter
+                0x0000000060004780       0x48 build/luaglue.o
+
+.text.scene_setLight
+                0x00000000600047d0       0x60
+ .text.scene_setLight
+                0x00000000600047d0       0x60 build/luaglue.o
+
+.text.scene_getRoot
+                0x0000000060004830       0x2c
+ .text.scene_getRoot
+                0x0000000060004830       0x2c build/luaglue.o
+
+.text.scene_drawNode
+                0x0000000060004860       0x50
+ .text.scene_drawNode
+                0x0000000060004860       0x50 build/luaglue.o
+
+.text.scene_draw
+                0x00000000600048b0       0x3c
+ .text.scene_draw
+                0x00000000600048b0       0x3c build/luaglue.o
+
+.text.scene_gc  0x00000000600048f0       0x28
+ .text.scene_gc
+                0x00000000600048f0       0x28 build/luaglue.o
+
+.text.register3D
+                0x0000000060004920      0x10c
+ .text.register3D
+                0x0000000060004920      0x10c build/luaglue.o
+                0x0000000060004920                register3D
+
+.text.eventHandlerShim
+                0x0000000060004a30       0x1c
+ .text.eventHandlerShim
+                0x0000000060004a30       0x1c build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                0x0000000060004a30                eventHandlerShim
+
+.text.memset    0x0000000060004a4c       0xa0
+ .text.memset   0x0000000060004a4c       0xa0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                0x0000000060004a4c                memset
+
+.text.qsort     0x0000000060004aec      0x648
+ .text.qsort    0x0000000060004aec      0x648 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+                0x0000000060004aec                qsort
+
+.text.startup.register_fini
+                0x0000000060005134       0x14
+ .text.startup.register_fini
+                0x0000000060005134       0x14 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+
+.text.atexit    0x0000000060005148        0xc
+ .text.atexit   0x0000000060005148        0xc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+                0x0000000060005148                atexit
+
+.text.__libc_fini_array
+                0x0000000060005154       0x2c
+ .text.__libc_fini_array
+                0x0000000060005154       0x2c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+                0x0000000060005154                __libc_fini_array
+
+.text.__retarget_lock_acquire_recursive
+                0x0000000060005180        0x4
+ .text.__retarget_lock_acquire_recursive
+                0x0000000060005180        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                0x0000000060005180                __retarget_lock_acquire_recursive
+
+.text.__retarget_lock_release_recursive
+                0x0000000060005184        0x4
+ .text.__retarget_lock_release_recursive
+                0x0000000060005184        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                0x0000000060005184                __retarget_lock_release_recursive
+
+.text.__register_exitproc
+                0x0000000060005188       0x8c
+ .text.__register_exitproc
+                0x0000000060005188       0x8c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                0x0000000060005188                __register_exitproc
+
+.text.cosf      0x0000000060005214       0x90
+ .text.cosf     0x0000000060005214       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                0x0000000060005214                cosf
+
+.text.sinf      0x00000000600052a4       0x94
+ .text.sinf     0x00000000600052a4       0x94 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                0x00000000600052a4                sinf
+
+.text.__ieee754_rem_pio2f
+                0x0000000060005338      0x294
+ .text.__ieee754_rem_pio2f
+                0x0000000060005338      0x294 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000060005338                __ieee754_rem_pio2f
+
+.text.__kernel_cosf
+                0x00000000600055cc      0x104
+ .text.__kernel_cosf
+                0x00000000600055cc      0x104 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                0x00000000600055cc                __kernel_cosf
+
+.text.__kernel_rem_pio2f
+                0x00000000600056d0      0x66c
+ .text.__kernel_rem_pio2f
+                0x00000000600056d0      0x66c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x00000000600056d0                __kernel_rem_pio2f
+
+.text.__kernel_sinf
+                0x0000000060005d3c       0x90
+ .text.__kernel_sinf
+                0x0000000060005d3c       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                0x0000000060005d3c                __kernel_sinf
+
+.text.fabsf     0x0000000060005dcc       0x10
+ .text.fabsf    0x0000000060005dcc       0x10 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x0000000060005dcc                fabsf
+
+.text.floorf    0x0000000060005ddc       0x8c
+ .text.floorf   0x0000000060005ddc       0x8c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x0000000060005ddc                floorf
+
+.text.scalbnf   0x0000000060005e68       0xe4
+ .text.scalbnf  0x0000000060005e68       0xe4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x0000000060005e68                scalbnf
+
+.rel.dyn        0x0000000060005f4c        0x0
+ .rel.iplt      0x0000000060005f4c        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.data           0x0000000060005f50      0x590
+                0x0000000060005f50                __etext = .
+                0x0000000060005f50                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.identityMatrix
+                0x0000000060005f50       0x34 build/mini3d/3dmath.o
+                0x0000000060005f50                identityMatrix
+ .data.patterns
+                0x0000000060005f84      0x108 build/mini3d/scene.o
+ .data.cameraOrigin
+                0x000000006000608c        0xc build/luaglue.o
+ .data.cameraScale
+                0x0000000060006098        0x4 build/luaglue.o
+ .data.cameraUp
+                0x000000006000609c        0xc build/luaglue.o
+ .data.impure_data
+                0x00000000600060a8      0x428 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .data.__atexit_recursive_mutex
+                0x00000000600064d0        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                0x00000000600064d0                __atexit_recursive_mutex
+                0x00000000600064d4                . = ALIGN (0x4)
+                0x00000000600064d4                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x00000000600064d4                PROVIDE (__preinit_array_end = .)
+                0x00000000600064d4                . = ALIGN (0x4)
+                0x00000000600064d4                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ .init_array.00000
+                0x00000000600064d4        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x00000000600064d8        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000600064dc                PROVIDE (__init_array_end = .)
+                0x00000000600064dc                . = ALIGN (0x4)
+                0x00000000600064dc                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x00000000600064dc        0x4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000600064e0                PROVIDE (__fini_array_end = .)
+                0x00000000600064e0                . = ALIGN (0x4)
+                0x00000000600064e0                __data_end__ = .
+
+.igot.plt       0x00000000600064e0        0x0
+ .igot.plt      0x00000000600064e0        0x0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.bss            0x00000000600064e0    0x2ee5c
+                0x00000000600064e0                . = ALIGN (0x4)
+                0x00000000600064e0                __bss_start__ = .
+ *(.bss*)
+ .bss           0x00000000600064e0       0x1c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss.zbuf      0x00000000600064fc    0x2ee00 build/mini3d/render.o
+ .bss.zscale    0x00000000600352fc        0x4 build/mini3d/render.o
+ .bss.cameraLookat
+                0x0000000060035300        0xc build/luaglue.o
+ .bss.pd        0x000000006003530c        0x4 build/luaglue.o
+ .bss.pdrealloc
+                0x0000000060035310        0x4 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ *(COMMON)
+ COMMON         0x0000000060035314        0x4 build/mini3d/mini3d.o
+                0x0000000060035314                m3d_realloc
+ COMMON         0x0000000060035318       0x21 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                0x0000000060035318                __lock___atexit_recursive_mutex
+                0x000000006003531c                __lock___arc4random_mutex
+                0x0000000060035320                __lock___env_recursive_mutex
+                0x0000000060035324                __lock___sinit_recursive_mutex
+                0x0000000060035328                __lock___malloc_recursive_mutex
+                0x000000006003532c                __lock___at_quick_exit_mutex
+                0x0000000060035330                __lock___dd_hash_mutex
+                0x0000000060035334                __lock___tz_mutex
+                0x0000000060035338                __lock___sfp_recursive_mutex
+                0x000000006003533c                . = ALIGN (0x4)
+ *fill*         0x0000000060035339        0x3 
+                0x000000006003533c                __bss_end__ = .
+
+/DISCARD/
+ *(.ARM.exidx)
+OUTPUT(build/pdex.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x30
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x34 build/main.o
+ .ARM.attributes
+                0x0000000000000086       0x34 build/mini3d/mini3d.o
+ .ARM.attributes
+                0x00000000000000ba       0x34 build/mini3d/3dmath.o
+ .ARM.attributes
+                0x00000000000000ee       0x34 build/mini3d/scene.o
+ .ARM.attributes
+                0x0000000000000122       0x34 build/mini3d/shape.o
+ .ARM.attributes
+                0x0000000000000156       0x34 build/mini3d/render.o
+ .ARM.attributes
+                0x000000000000018a       0x34 build/luaglue.o
+ .ARM.attributes
+                0x00000000000001be       0x34 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .ARM.attributes
+                0x00000000000001f2       0x32 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000224       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000258       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .ARM.attributes
+                0x000000000000028c       0x1c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000000000002a8       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000000002dc       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000310       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000344       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000000000000378       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000000000003ac       0x32 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x00000000000003de       0x1e /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .ARM.attributes
+                0x00000000000003fc       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .ARM.attributes
+                0x0000000000000430       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .ARM.attributes
+                0x0000000000000464       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000498       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .ARM.attributes
+                0x00000000000004cc       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .ARM.attributes
+                0x0000000000000500       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .ARM.attributes
+                0x0000000000000534       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .ARM.attributes
+                0x0000000000000568       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .ARM.attributes
+                0x000000000000059c       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+.comment        0x0000000000000000       0x79
+ .comment       0x0000000000000000       0x79 build/main.o
+                                         0x7a (size before relaxing)
+ .comment       0x0000000000000079       0x7a build/mini3d/mini3d.o
+ .comment       0x0000000000000079       0x7a build/mini3d/3dmath.o
+ .comment       0x0000000000000079       0x7a build/mini3d/scene.o
+ .comment       0x0000000000000079       0x7a build/mini3d/shape.o
+ .comment       0x0000000000000079       0x7a build/mini3d/render.o
+ .comment       0x0000000000000079       0x7a build/luaglue.o
+ .comment       0x0000000000000079       0x7a build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_info     0x0000000000000000    0x1c2ec
+ .debug_info    0x0000000000000000     0x6052 build/main.o
+ .debug_info    0x0000000000006052       0xb0 build/mini3d/mini3d.o
+ .debug_info    0x0000000000006102      0xff4 build/mini3d/3dmath.o
+ .debug_info    0x00000000000070f6     0x2b3f build/mini3d/scene.o
+ .debug_info    0x0000000000009c35      0xf73 build/mini3d/shape.o
+ .debug_info    0x000000000000aba8     0x2980 build/mini3d/render.o
+ .debug_info    0x000000000000d528     0x8b96 build/luaglue.o
+ .debug_info    0x00000000000160be     0x622e build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_abbrev   0x0000000000000000     0x1d83
+ .debug_abbrev  0x0000000000000000      0x2ad build/main.o
+ .debug_abbrev  0x00000000000002ad       0xaa build/mini3d/mini3d.o
+ .debug_abbrev  0x0000000000000357      0x343 build/mini3d/3dmath.o
+ .debug_abbrev  0x000000000000069a      0x60b build/mini3d/scene.o
+ .debug_abbrev  0x0000000000000ca5      0x345 build/mini3d/shape.o
+ .debug_abbrev  0x0000000000000fea      0x524 build/mini3d/render.o
+ .debug_abbrev  0x000000000000150e      0x529 build/luaglue.o
+ .debug_abbrev  0x0000000000001a37      0x34c build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_loc      0x0000000000000000     0x94e8
+ .debug_loc     0x0000000000000000       0xac build/main.o
+ .debug_loc     0x00000000000000ac      0xa5d build/mini3d/3dmath.o
+ .debug_loc     0x0000000000000b09     0x2ca7 build/mini3d/scene.o
+ .debug_loc     0x00000000000037b0      0x347 build/mini3d/shape.o
+ .debug_loc     0x0000000000003af7     0x3dec build/mini3d/render.o
+ .debug_loc     0x00000000000078e3     0x19f6 build/luaglue.o
+ .debug_loc     0x00000000000092d9      0x20f build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_aranges  0x0000000000000000      0x3b8
+ .debug_aranges
+                0x0000000000000000       0x20 build/main.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/mini3d/mini3d.o
+ .debug_aranges
+                0x0000000000000040       0x50 build/mini3d/3dmath.o
+ .debug_aranges
+                0x0000000000000090       0xd8 build/mini3d/scene.o
+ .debug_aranges
+                0x0000000000000168       0x50 build/mini3d/shape.o
+ .debug_aranges
+                0x00000000000001b8       0x70 build/mini3d/render.o
+ .debug_aranges
+                0x0000000000000228      0x158 build/luaglue.o
+ .debug_aranges
+                0x0000000000000380       0x38 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_ranges   0x0000000000000000     0x1268
+ .debug_ranges  0x0000000000000000       0x10 build/main.o
+ .debug_ranges  0x0000000000000010       0x10 build/mini3d/mini3d.o
+ .debug_ranges  0x0000000000000020       0x58 build/mini3d/3dmath.o
+ .debug_ranges  0x0000000000000078      0x598 build/mini3d/scene.o
+ .debug_ranges  0x0000000000000610       0x58 build/mini3d/shape.o
+ .debug_ranges  0x0000000000000668      0x510 build/mini3d/render.o
+ .debug_ranges  0x0000000000000b78      0x6c8 build/luaglue.o
+ .debug_ranges  0x0000000000001240       0x28 build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_line     0x0000000000000000     0x5507
+ .debug_line    0x0000000000000000      0x324 build/main.o
+ .debug_line    0x0000000000000324       0xbd build/mini3d/mini3d.o
+ .debug_line    0x00000000000003e1      0x49b build/mini3d/3dmath.o
+ .debug_line    0x000000000000087c     0x1638 build/mini3d/scene.o
+ .debug_line    0x0000000000001eb4      0x5d6 build/mini3d/shape.o
+ .debug_line    0x000000000000248a     0x137b build/mini3d/render.o
+ .debug_line    0x0000000000003805     0x1956 build/luaglue.o
+ .debug_line    0x000000000000515b      0x3ac build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+
+.debug_str      0x0000000000000000     0x360c
+ .debug_str     0x0000000000000000     0x2a7f build/main.o
+                                       0x2cca (size before relaxing)
+ .debug_str     0x0000000000002a7f       0x2e build/mini3d/mini3d.o
+                                        0x17e (size before relaxing)
+ .debug_str     0x0000000000002aad      0x10a build/mini3d/3dmath.o
+                                        0x70b (size before relaxing)
+ .debug_str     0x0000000000002bb7      0x538 build/mini3d/scene.o
+                                        0xc85 (size before relaxing)
+ .debug_str     0x00000000000030ef       0x7e build/mini3d/shape.o
+                                        0x761 (size before relaxing)
+ .debug_str     0x000000000000316d       0xc1 build/mini3d/render.o
+                                        0x807 (size before relaxing)
+ .debug_str     0x000000000000322e      0x301 build/luaglue.o
+                                       0x33d2 (size before relaxing)
+ .debug_str     0x000000000000352f       0xdd build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                                       0x2d95 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x13dc
+ .debug_frame   0x0000000000000000       0x2c build/main.o
+ .debug_frame   0x000000000000002c       0x20 build/mini3d/mini3d.o
+ .debug_frame   0x000000000000004c      0x158 build/mini3d/3dmath.o
+ .debug_frame   0x00000000000001a4      0x44c build/mini3d/scene.o
+ .debug_frame   0x00000000000005f0       0xf8 build/mini3d/shape.o
+ .debug_frame   0x00000000000006e8      0x2ac build/mini3d/render.o
+ .debug_frame   0x0000000000000994      0x5a4 build/luaglue.o
+ .debug_frame   0x0000000000000f38       0x5c build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+ .debug_frame   0x0000000000000f94       0x38 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000fcc       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .debug_frame   0x0000000000001010       0x68 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000001078       0x68 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000000010e0       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000001100       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000001134       0xb0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+ .debug_frame   0x00000000000011e4       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000001218       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x000000000000124c       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x0000000000001280       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x00000000000012c4       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x00000000000012e4       0x5c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x0000000000001340       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x0000000000001360       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x0000000000001380       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x00000000000013a0       0x3c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+
+Cross Reference Table
+
+Symbol                                            File
+Matrix3DMake                                      build/mini3d/3dmath.o
+                                                  build/mini3d/scene.o
+Matrix3DMakeTranslate                             build/mini3d/3dmath.o
+                                                  build/mini3d/scene.o
+Matrix3D_apply                                    build/mini3d/3dmath.o
+                                                  build/luaglue.o
+                                                  build/mini3d/scene.o
+Matrix3D_getDeterminant                           build/mini3d/3dmath.o
+                                                  build/luaglue.o
+Matrix3D_multiply                                 build/mini3d/3dmath.o
+                                                  build/luaglue.o
+                                                  build/mini3d/scene.o
+PD_eventHandler                                   build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+Scene3DNode_addShape                              build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_addShapeWithOffset                    build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_addShapeWithTransform                 build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_addTransform                          build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_deinit                                build/mini3d/scene.o
+Scene3DNode_getRenderStyle                        build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_init                                  build/mini3d/scene.o
+Scene3DNode_newChild                              build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_setColorBias                          build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_setRenderStyle                        build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_setTransform                          build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3DNode_setUsesZBuffer                        build/mini3d/scene.o
+Scene3DNode_setVisible                            build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_deinit                                    build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_draw                                      build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_drawNode                                  build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_getRootNode                               build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_init                                      build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_setCamera                                 build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_setCenter                                 build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_setGlobalLight                            build/mini3d/scene.o
+                                                  build/luaglue.o
+Scene3D_updateNode                                build/mini3d/scene.o
+Shape3D_addFace                                   build/mini3d/shape.o
+                                                  build/luaglue.o
+Shape3D_addPoint                                  build/mini3d/shape.o
+Shape3D_init                                      build/mini3d/shape.o
+                                                  build/luaglue.o
+Shape3D_release                                   build/mini3d/shape.o
+                                                  build/luaglue.o
+                                                  build/mini3d/scene.o
+Shape3D_retain                                    build/mini3d/shape.o
+                                                  build/luaglue.o
+                                                  build/mini3d/scene.o
+Shape3D_setClosed                                 build/mini3d/shape.o
+                                                  build/luaglue.o
+Shape3D_setOrderTableSize                         build/mini3d/shape.o
+                                                  build/luaglue.o
+Vector3D_normalize                                build/mini3d/3dmath.o
+__atexit_recursive_mutex                          /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+__bss_end__                                       build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__bss_start__                                     build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__call_exitprocs                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+__deregister_frame_info                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__dso_handle                                      /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__fini_array_end                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+__fini_array_start                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+__ieee754_rem_pio2f                               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__init_array_end                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+__init_array_start                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+__kernel_cosf                                     /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__kernel_rem_pio2f                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+__kernel_sinf                                     /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+__libc_fini                                       /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+__libc_fini_array                                 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__libc_init_array                                 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+__lock___arc4random_mutex                         /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex                      /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___atexit_recursive_mutex                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+__lock___dd_hash_mutex                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___env_recursive_mutex                      /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___sfp_recursive_mutex                      /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex                    /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__lock___tz_mutex                                 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__preinit_array_end                               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+__preinit_array_start                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+__register_exitproc                               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+__register_frame_info                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+__retarget_lock_acquire                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_acquire_recursive                 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+__retarget_lock_close                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_close_recursive                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_init                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_init_recursive                    /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_release                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_release_recursive                 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+__retarget_lock_try_acquire                       /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__retarget_lock_try_acquire_recursive             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-lock.o)
+__stack                                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_bss_end                                          build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+_bss_start                                        build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+_exit                                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+_fini                                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-fini.o)
+_free_r                                           build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+_global_impure_ptr                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+_impure_ptr                                       /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-impure.o)
+_init                                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-init.o)
+_mainCRTStartup                                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+_malloc_r                                         build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+_realloc_r                                        build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+_start                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+atexit                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-__call_atexit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+cosf                                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                                                  build/luaglue.o
+drawLine                                          build/mini3d/render.o
+                                                  build/mini3d/scene.o
+drawLine_zbuf                                     build/mini3d/render.o
+                                                  build/mini3d/scene.o
+eventHandler                                      build/main.o
+                                                  build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+eventHandlerShim                                  build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o
+exit                                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+fabsf                                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+fillQuad                                          build/mini3d/render.o
+                                                  build/mini3d/scene.o
+fillQuad_zbuf                                     build/mini3d/render.o
+                                                  build/mini3d/scene.o
+fillTriangle                                      build/mini3d/render.o
+                                                  build/mini3d/scene.o
+fillTriangle_zbuf                                 build/mini3d/render.o
+                                                  build/mini3d/scene.o
+floorf                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+hardware_init_hook                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+identityMatrix                                    build/mini3d/3dmath.o
+                                                  build/luaglue.o
+                                                  build/mini3d/scene.o
+m3d_realloc                                       build/mini3d/mini3d.o
+                                                  build/luaglue.o
+                                                  build/mini3d/shape.o
+                                                  build/mini3d/scene.o
+main                                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+memset                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                                                  build/mini3d/render.o
+                                                  build/mini3d/scene.o
+                                                  build/mini3d/3dmath.o
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+mini3d_setRealloc                                 build/mini3d/mini3d.o
+                                                  build/luaglue.o
+pnormal                                           build/mini3d/3dmath.o
+                                                  build/mini3d/scene.o
+qsort                                             /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+                                                  build/mini3d/scene.o
+register3D                                        build/luaglue.o
+                                                  build/main.o
+resetZBuffer                                      build/mini3d/render.o
+                                                  build/mini3d/scene.o
+scalbnf                                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                                                  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+sinf                                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                                                  build/luaglue.o
+software_init_hook                                /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+strcmp                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+                                                  build/luaglue.o
