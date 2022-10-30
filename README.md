@@ -1,6 +1,8 @@
 # Reactive
 
-Simple audio reactive 3D toy for Playdate.
+Simple reactive 3D toy for Playdate.
+
+![https://img.youtube.com/vi/tuWs-54qI1E/0.jpg](https://www.youtube.com/watch?v=tuWs-54qI1E)
 
 ## Acknowledgements 
 
