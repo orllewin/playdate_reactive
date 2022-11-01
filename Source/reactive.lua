@@ -76,7 +76,7 @@ function playdate.update()
 	if(roll) then
 		sceneRootNode:addTransform(lib3d.matrix.newRotation(rollDirection , 0, 0, 1))
 		
-		if(random() < 0.05) then 
+		if(random() < 0.08) then 
 			roll = false
 			
 			if(rollDirection == -3) then
@@ -109,7 +109,7 @@ function playdate.update()
 	-- Favour filled mode, limit how often wireframe is shown
 	if(wireframeAllowed)then
 		if(filled)then
-			if(random() < 0.1)then
+			if(random() < 0.05)then
 				filled = false
 				wireframeMode = 2
 			end
