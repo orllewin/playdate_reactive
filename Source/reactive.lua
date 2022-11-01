@@ -43,25 +43,13 @@ audScale = 0
 donutTime = 0
 
 DisplayModes = {ALWAYS_OFF = "0", ALWAYS_ON = "1", INTERMITTENT_OFF = "2", INTERMITTENT_ON = "3"}
-orbitMode = DisplayModes.INTERMITTENT_ON
+orbitMode = DisplayModes.ALWAYS_ON
 shapeMode = DisplayModes.ALWAYS_ON
-wireframeMode = DisplayModes.INTERMITTENT_ON
+wireframeMode = DisplayModes.ALWAYS_OFF
+reactiveMode = DisplayModes.ALWAYS_OFF
 
 roll = false
 rollDirection = -3
-
-
--- Toast
-toastText = ""
-toastActive = false
-toastStartMS = -1
-TOAST_DISPLAY_MS = 1500
-function toast(text)
-	toastText = text
-	toastActive = true
-	toastStartMS = playdate.getCurrentTimeMilliseconds()
-	print("Toast: " .. toastText)
-end
 
 -- Controls
 function playdate.upButtonDown() 
@@ -103,7 +91,15 @@ function playdate.leftButtonDown()
 	end
 end 
 
-function playdate.rightButtonDown() iY += 1 end 
+function playdate.rightButtonDown()
+	if(reactiveMode == DisplayModes.ALWAYS_OFF) then
+		reactiveMode = DisplayModes.ALWAYS_ON
+		toast("Reactive audio on")
+	elseif(reactiveMode == DisplayModes.ALWAYS_ON) then
+		reactiveMode = DisplayModes.ALWAYS_OFF
+		toast("Reactive audio off")
+	end
+end 
 function playdate.BButtonDown() wireframeAllowed = not wireframeAllowed end
 function playdate.AButtonDown() 
 	
@@ -142,22 +138,26 @@ function playdate.update()
 		end
 	end
 	
-	
-	audLevel = sound.micinput.getLevel()
-	audFrame = audFrame + 1
-	
-	audAverage = audAverage * (audFrame - 1)/audFrame + audLevel / audFrame
-
-	if(audLevel > (audAverage + (audAverage/10))) then
-		audScale = math.min((audLevel * 1000), 15)
-		scene:setCameraOrigin(0, 0, CAM_ORIGIN - audScale)
+	if(reactiveMode == DisplayModes.ALWAYS_ON or reactiveMode == DisplayModes.INTERMITTENT_ON) then
+		audLevel = sound.micinput.getLevel()
+		audFrame = audFrame + 1
 		
-		if(random() < 0.1) then
-			roll = true
+		audAverage = audAverage * (audFrame - 1)/audFrame + audLevel / audFrame
+	
+		if(audLevel > (audAverage + (audAverage/10))) then
+			audScale = math.min((audLevel * 1000), 15)
+			scene:setCameraOrigin(0, 0, CAM_ORIGIN - audScale)
+			
+			if(random() < 0.1) then
+				roll = true
+			end
+		elseif(audLevel < (audAverage - (audAverage/10))) then
+			audScale = math.min((audLevel * 1000), 15)
+			scene:setCameraOrigin(0, 0, CAM_ORIGIN + audScale)
 		end
-	elseif(audLevel < (audAverage - (audAverage/10))) then
-		local audScale = math.min((audLevel * 1000), 15)
-		scene:setCameraOrigin(0, 0, CAM_ORIGIN + audScale)
+	else
+		audScale = 15
+		scene:setCameraOrigin(0, 0, CAM_ORIGIN)
 	end
 
 	graphics.clear(graphics.kColorBlack)
@@ -273,6 +273,18 @@ function renderOrbit()
 			end
 		end
 	end
+end
+
+-- Toast
+toastText = ""
+toastActive = false
+toastStartMS = -1
+TOAST_DISPLAY_MS = 1500
+function toast(text)
+	toastText = text
+	toastActive = true
+	toastStartMS = playdate.getCurrentTimeMilliseconds()
+	print("Toast: " .. toastText)
 end
 
 
