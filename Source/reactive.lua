@@ -8,6 +8,7 @@ local random <const> = math.random
 
 playdate.startAccelerometer()
 sound.micinput.startListening()
+graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
 
 CAM_ORIGIN = 40
 
@@ -29,9 +30,7 @@ end
 sceneRootNode = scene:getRootNode()
 sceneRootNode:addShape(cube)
 
-filled = true
-wireframeAllowed = false
-wireframeMode = 0
+wireframeAllowed = true
 accelerometerMode = true
 iX = 0
 iY = 0
@@ -42,17 +41,73 @@ audFrame = 0
 audScale = 0
 
 donutTime = 0
-drawDonut = false
-donutModeAllowed = false
+
+DisplayModes = {ALWAYS_OFF = "0", ALWAYS_ON = "1", INTERMITTENT_OFF = "2", INTERMITTENT_ON = "3"}
+orbitMode = DisplayModes.INTERMITTENT_ON
+shapeMode = DisplayModes.ALWAYS_ON
+wireframeMode = DisplayModes.INTERMITTENT_ON
+
 roll = false
 rollDirection = -3
 
-function playdate.upButtonDown() iX -= 1 end
-function playdate.downButtonDown() iX += 1 end
-function playdate.leftButtonDown() iY -= 1 end 
+
+-- Toast
+toastText = ""
+toastActive = false
+toastStartMS = -1
+TOAST_DISPLAY_MS = 1500
+function toast(text)
+	toastText = text
+	toastActive = true
+	toastStartMS = playdate.getCurrentTimeMilliseconds()
+	print("Toast: " .. toastText)
+end
+
+-- Controls
+function playdate.upButtonDown() 
+	if(orbitMode == DisplayModes.ALWAYS_OFF) then
+		orbitMode = DisplayModes.ALWAYS_ON
+		toast("Orbit on")
+	elseif(orbitMode == DisplayModes.ALWAYS_ON) then
+		orbitMode = DisplayModes.INTERMITTENT_ON
+		toast("Orbit intermittent")
+	else
+		orbitMode = DisplayModes.ALWAYS_OFF
+		toast("Orbit off")
+	end	
+end
+
+function playdate.downButtonDown() 
+	if(shapeMode == DisplayModes.ALWAYS_OFF) then
+		shapeMode = DisplayModes.ALWAYS_ON
+		toast("Shape on")
+	elseif(shapeMode == DisplayModes.ALWAYS_ON) then
+		shapeMode = DisplayModes.INTERMITTENT_ON
+		toast("Shape intermittent")
+	else
+		shapeMode = DisplayModes.ALWAYS_OFF
+		toast("Shape off")
+	end	
+end
+
+function playdate.leftButtonDown()
+	if(wireframeMode == DisplayModes.ALWAYS_OFF) then
+		wireframeMode = DisplayModes.ALWAYS_ON
+		toast("Wireframe on")
+	elseif(wireframeMode == DisplayModes.ALWAYS_ON) then
+		wireframeMode = DisplayModes.INTERMITTENT_ON
+		toast("Wireframe intermittent")
+	else
+		wireframeMode = DisplayModes.ALWAYS_OFF
+		toast("Wireframe off")
+	end
+end 
+
 function playdate.rightButtonDown() iY += 1 end 
 function playdate.BButtonDown() wireframeAllowed = not wireframeAllowed end
-function playdate.AButtonDown() donutModeAllowed = not donutModeAllowed end
+function playdate.AButtonDown() 
+	
+end
 
 function playdate.update()
 
@@ -87,7 +142,6 @@ function playdate.update()
 		end
 	end
 	
-	sceneRootNode:setFilled(filled)
 	
 	audLevel = sound.micinput.getLevel()
 	audFrame = audFrame + 1
@@ -105,40 +159,70 @@ function playdate.update()
 		local audScale = math.min((audLevel * 1000), 15)
 		scene:setCameraOrigin(0, 0, CAM_ORIGIN + audScale)
 	end
-	
-	-- Favour filled mode, limit how often wireframe is shown
-	if(wireframeAllowed)then
-		if(filled)then
-			if(random() < 0.05)then
-				filled = false
-				wireframeMode = 2
-			end
-		else
-			if(random() < 0.2)then
-				filled = true
-				wireframeMode = 0
-			end
-		end
-	end
-		
-	sceneRootNode:setWireframeMode(wireframeMode)
 
 	graphics.clear(graphics.kColorBlack)
 		
-	-- Donut
-	-- Make donut more likely to turn off than to be activated to limit its screen time.
-	if(donutModeAllowed) then
-		if(not drawDonut)then
+	updateWireframeStatus()
+	renderOrbit()
+	renderShape()
+	
+	if(toastActive) then
+		playdate.graphics.drawText(toastText, 10, 10)
+		
+		if(playdate.getCurrentTimeMilliseconds() - toastStartMS > TOAST_DISPLAY_MS) then
+			toastActive = false
+		end
+	end
+end
+
+function updateWireframeStatus()
+	if(wireframeMode == DisplayModes.INTERMITTENT_ON) then
+		if(random() < 0.04)then
+			wireframeMode = DisplayModes.INTERMITTENT_OFF
+		end
+	elseif(wireframeMode == DisplayModes.INTERMITTENT_OFF) then
+		if(random() < 0.02)then
+			wireframeMode = DisplayModes.INTERMITTENT_ON
+		end
+	end
+	
+	if(wireframeMode == DisplayModes.ALWAYS_ON or wireframeMode == DisplayModes.INTERMITTENT_ON)then
+		sceneRootNode:setFilled(false)
+		sceneRootNode:setWireframeMode(2)
+	else
+		sceneRootNode:setFilled(true)
+		sceneRootNode:setWireframeMode(0)
+	end
+end
+
+function renderShape()	
+	if(shapeMode == DisplayModes.INTERMITTENT_OFF)then
+		if(random() < 0.08)then
+			shapeMode = DisplayModes.INTERMITTENT_ON
+		end
+	elseif (shapeMode == DisplayModes.INTERMITTENT_ON) then
+		if(random() < 0.05)then
+			shapeMode = DisplayModes.INTERMITTENT_OFF
+		end
+	end
+	if(shapeMode == DisplayModes.ALWAYS_ON or shapeMode == DisplayModes.INTERMITTENT_ON) then 
+		scene:draw()
+	end	
+end
+
+function renderOrbit()
+	if(orbitMode ~= DisplayModes.ALWAYS_OFF) then
+		if(orbitMode == DisplayModes.INTERMITTENT_OFF)then
 			if(random() < 0.05)then
-				drawDonut = true
+				orbitMode = DisplayModes.INTERMITTENT_ON
 			end
-		else
+		elseif (orbitMode == DisplayModes.INTERMITTENT_ON) then
 			if(random() < 0.1)then
-				drawDonut = false
+				orbitMode = DisplayModes.INTERMITTENT_OFF
 			end
 		end
 		
-		if(drawDonut) then
+		if(orbitMode == DisplayModes.ALWAYS_ON or orbitMode == DisplayModes.INTERMITTENT_ON) then
 		
 			playdate.graphics.setColor(playdate.graphics.kColorWhite)
 			playdate.graphics.setDitherPattern(0.7, playdate.graphics.image.kDitherTypeBayer4x4)
@@ -163,7 +247,7 @@ function playdate.update()
 				local z = 5 + cos(b) * (audScale/8) + cos(p) * Q
 				local s = 80 / z / z
 							
-				if(filled) then
+				if(wireframeMode == DisplayModes.ALWAYS_OFF or wireframeMode == DisplayModes.INTERMITTENT_OFF) then
 					playdate.graphics.setColor(playdate.graphics.kColorWhite)
 					if(z < 3) then
 						playdate.graphics.setDitherPattern(0.1, playdate.graphics.image.kDitherTypeBayer4x4)
@@ -189,9 +273,6 @@ function playdate.update()
 			end
 		end
 	end
-
-	-- ------------ End Donut
-	scene:draw()	
 end
 
 
