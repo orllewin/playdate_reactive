@@ -30,11 +30,6 @@ end
 sceneRootNode = scene:getRootNode()
 sceneRootNode:addShape(cube)
 
-wireframeAllowed = true
-accelerometerMode = true
-iX = 0
-iY = 0
-
 audLevel = 0.5
 audAverage = 0.5
 audFrame = 0
@@ -51,77 +46,15 @@ reactiveMode = DisplayModes.ALWAYS_OFF
 roll = false
 rollDirection = -3
 
--- Controls
-function playdate.upButtonDown() 
-	if(orbitMode == DisplayModes.ALWAYS_OFF) then
-		orbitMode = DisplayModes.ALWAYS_ON
-		toast("Orbit on")
-	elseif(orbitMode == DisplayModes.ALWAYS_ON) then
-		orbitMode = DisplayModes.INTERMITTENT_ON
-		toast("Orbit intermittent")
-	else
-		orbitMode = DisplayModes.ALWAYS_OFF
-		toast("Orbit off")
-	end	
-end
-
-function playdate.downButtonDown() 
-	if(shapeMode == DisplayModes.ALWAYS_OFF) then
-		shapeMode = DisplayModes.ALWAYS_ON
-		toast("Shape on")
-	elseif(shapeMode == DisplayModes.ALWAYS_ON) then
-		shapeMode = DisplayModes.INTERMITTENT_ON
-		toast("Shape intermittent")
-	else
-		shapeMode = DisplayModes.ALWAYS_OFF
-		toast("Shape off")
-	end	
-end
-
-function playdate.leftButtonDown()
-	if(wireframeMode == DisplayModes.ALWAYS_OFF) then
-		wireframeMode = DisplayModes.ALWAYS_ON
-		toast("Wireframe on")
-	elseif(wireframeMode == DisplayModes.ALWAYS_ON) then
-		wireframeMode = DisplayModes.INTERMITTENT_ON
-		toast("Wireframe intermittent")
-	else
-		wireframeMode = DisplayModes.ALWAYS_OFF
-		toast("Wireframe off")
-	end
-end 
-
-function playdate.rightButtonDown()
-	if(reactiveMode == DisplayModes.ALWAYS_OFF) then
-		reactiveMode = DisplayModes.ALWAYS_ON
-		toast("Reactive audio on")
-	elseif(reactiveMode == DisplayModes.ALWAYS_ON) then
-		reactiveMode = DisplayModes.ALWAYS_OFF
-		toast("Reactive audio off")
-	end
-end 
-function playdate.BButtonDown() wireframeAllowed = not wireframeAllowed end
-function playdate.AButtonDown() 
-	
-end
-
 function playdate.update()
-
+	
+	graphics.clear(graphics.kColorBlack)
+	
 	local accY, accX = playdate.readAccelerometer()
-	
-	if(accelerometerMode)then
-		sceneRootNode:addTransform(lib3d.matrix.newRotation(accX * 4, 1, 0, 0))
-	else
-		sceneRootNode:addTransform(lib3d.matrix.newRotation(iX, 1, 0, 0))
-	end
-	
-	if(accelerometerMode)then
-		sceneRootNode:addTransform(lib3d.matrix.newRotation(accY * 4, 0, 1, 0))
-	else
-		sceneRootNode:addTransform(lib3d.matrix.newRotation(iY, 0, 1, 0))
-	end
-	
 	local crankChange, crankAccChange = playdate.getCrankChange()
+	
+	sceneRootNode:addTransform(lib3d.matrix.newRotation(accX * 4, 1, 0, 0))
+	sceneRootNode:addTransform(lib3d.matrix.newRotation(accY * 4, 0, 1, 0))
 	sceneRootNode:addTransform(lib3d.matrix.newRotation(crankChange / 2 , 0, 0, 1))
 	
 	if(roll) then
@@ -138,6 +71,23 @@ function playdate.update()
 		end
 	end
 	
+	
+		
+	updateReactiveMode()
+	updateWireframeStatus()
+	renderOrbit()
+	renderShape()
+	
+	if(toastActive) then
+		playdate.graphics.drawText(toastText, 10, 10)
+		
+		if(playdate.getCurrentTimeMilliseconds() - toastStartMS > TOAST_DISPLAY_MS) then
+			toastActive = false
+		end
+	end
+end
+
+function updateReactiveMode()
 	if(reactiveMode == DisplayModes.ALWAYS_ON or reactiveMode == DisplayModes.INTERMITTENT_ON) then
 		audLevel = sound.micinput.getLevel()
 		audFrame = audFrame + 1
@@ -158,20 +108,6 @@ function playdate.update()
 	else
 		audScale = 15
 		scene:setCameraOrigin(0, 0, CAM_ORIGIN)
-	end
-
-	graphics.clear(graphics.kColorBlack)
-		
-	updateWireframeStatus()
-	renderOrbit()
-	renderShape()
-	
-	if(toastActive) then
-		playdate.graphics.drawText(toastText, 10, 10)
-		
-		if(playdate.getCurrentTimeMilliseconds() - toastStartMS > TOAST_DISPLAY_MS) then
-			toastActive = false
-		end
 	end
 end
 
@@ -250,7 +186,7 @@ function renderOrbit()
 				if(wireframeMode == DisplayModes.ALWAYS_OFF or wireframeMode == DisplayModes.INTERMITTENT_OFF) then
 					playdate.graphics.setColor(playdate.graphics.kColorWhite)
 					if(z < 3) then
-						playdate.graphics.setDitherPattern(0.1, playdate.graphics.image.kDitherTypeBayer4x4)
+						playdate.graphics.setDitherPattern(0.0, playdate.graphics.image.kDitherTypeBayer4x4)
 					elseif(z < 4) then
 						playdate.graphics.setDitherPattern(0.2, playdate.graphics.image.kDitherTypeBayer4x4)
 					elseif(z < 5) then
@@ -280,11 +216,79 @@ toastText = ""
 toastActive = false
 toastStartMS = -1
 TOAST_DISPLAY_MS = 1500
+hudActive = true
 function toast(text)
+	if(not hudActive) then
+		return
+	end
 	toastText = text
 	toastActive = true
 	toastStartMS = playdate.getCurrentTimeMilliseconds()
 	print("Toast: " .. toastText)
+end
+
+-- Controls
+function playdate.upButtonDown() 
+	if(orbitMode == DisplayModes.ALWAYS_OFF) then
+		orbitMode = DisplayModes.ALWAYS_ON
+		toast("Orbit on")
+	elseif(orbitMode == DisplayModes.ALWAYS_ON) then
+		orbitMode = DisplayModes.INTERMITTENT_ON
+		toast("Orbit intermittent")
+	else
+		orbitMode = DisplayModes.ALWAYS_OFF
+		toast("Orbit off")
+	end	
+end
+
+function playdate.downButtonDown() 
+	if(shapeMode == DisplayModes.ALWAYS_OFF) then
+		shapeMode = DisplayModes.ALWAYS_ON
+		toast("Shape on")
+	elseif(shapeMode == DisplayModes.ALWAYS_ON) then
+		shapeMode = DisplayModes.INTERMITTENT_ON
+		toast("Shape intermittent")
+	else
+		shapeMode = DisplayModes.ALWAYS_OFF
+		toast("Shape off")
+	end	
+end
+
+function playdate.leftButtonDown()
+	if(wireframeMode == DisplayModes.ALWAYS_OFF) then
+		wireframeMode = DisplayModes.ALWAYS_ON
+		toast("Wireframe on")
+	elseif(wireframeMode == DisplayModes.ALWAYS_ON) then
+		wireframeMode = DisplayModes.INTERMITTENT_ON
+		toast("Wireframe intermittent")
+	else
+		wireframeMode = DisplayModes.ALWAYS_OFF
+		toast("Wireframe off")
+	end
+end 
+
+function playdate.rightButtonDown()
+	if(reactiveMode == DisplayModes.ALWAYS_OFF) then
+		reactiveMode = DisplayModes.ALWAYS_ON
+		toast("Reactive audio on")
+	elseif(reactiveMode == DisplayModes.ALWAYS_ON) then
+		reactiveMode = DisplayModes.ALWAYS_OFF
+		toast("Reactive audio off")
+	end
+end 
+
+function playdate.BButtonDown() 
+	if(hudActive) then
+		toast("HUD off")
+		hudActive = false
+	else
+		hudActive = true
+		toast("HUD on")
+	end
+end
+
+function playdate.AButtonDown() 
+	
 end
 
 
