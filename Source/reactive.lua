@@ -57,6 +57,23 @@ function playdate.update()
 	sceneRootNode:addTransform(lib3d.matrix.newRotation(accY * 4, 0, 1, 0))
 	sceneRootNode:addTransform(lib3d.matrix.newRotation(crankChange / 2 , 0, 0, 1))
 	
+	updateRoll()		
+	updateReactiveMode()
+	updateWireframeStatus()
+	renderOrbit()
+	renderShape()
+	
+	if(toastActive) then
+		playdate.graphics.drawText(toastText, 10, 10)
+		
+		if(playdate.getCurrentTimeMilliseconds() - toastStartMS > TOAST_DISPLAY_MS) then
+			toastActive = false
+		end
+	end
+end
+
+-- Not. this only deactivates roll. Activation happens in reactiveMode() if a louder than average sound event happens.
+function updateRoll()
 	if(roll) then
 		sceneRootNode:addTransform(lib3d.matrix.newRotation(rollDirection , 0, 0, 1))
 		
@@ -68,21 +85,6 @@ function playdate.update()
 			else
 				rollDirection = -3
 			end
-		end
-	end
-	
-	
-		
-	updateReactiveMode()
-	updateWireframeStatus()
-	renderOrbit()
-	renderShape()
-	
-	if(toastActive) then
-		playdate.graphics.drawText(toastText, 10, 10)
-		
-		if(playdate.getCurrentTimeMilliseconds() - toastStartMS > TOAST_DISPLAY_MS) then
-			toastActive = false
 		end
 	end
 end
