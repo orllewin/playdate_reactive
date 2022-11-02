@@ -11,6 +11,8 @@ sound.micinput.startListening()
 graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
 
 CAM_ORIGIN = 40
+SHAPE_POLYGONS = 7
+ORBIT_ORBS = 70
 
 scene = lib3d.scene.new()
 scene:setCameraOrigin(0, 0, CAM_ORIGIN)
@@ -18,7 +20,7 @@ scene:setLight(0.2, 0.8, 0.4)
 
 cube = lib3d.shape.new()
 
-for i=1, 10 do
+for i=1, SHAPE_POLYGONS do
 	cube:addFace(
 		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
 		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
@@ -43,8 +45,14 @@ shapeMode = DisplayModes.ALWAYS_ON
 wireframeMode = DisplayModes.ALWAYS_OFF
 reactiveMode = DisplayModes.ALWAYS_OFF
 
+OrbitScaleModes = {NORMAL = "0", MASSIVE = "1"}
+orbitScaleMode = OrbitScaleModes.NORMAL
+orbitVerticalScale = 200
+
 roll = false
 rollDirection = -3
+
+
 
 function playdate.update()
 	
@@ -90,7 +98,7 @@ function updateRoll()
 end
 
 function updateReactiveMode()
-	if(reactiveMode == DisplayModes.ALWAYS_ON or reactiveMode == DisplayModes.INTERMITTENT_ON) then
+	if(reactiveMode == DisplayModes.ALWAYS_ON) then
 		audLevel = sound.micinput.getLevel()
 		audFrame = audFrame + 1
 		
@@ -103,9 +111,25 @@ function updateReactiveMode()
 			if(random() < 0.1) then
 				roll = true
 			end
+			
+			if(orbitScaleMode == OrbitScaleModes.NORMAL)then
+				if(random() < 0.01) then
+					orbitScaleMode = OrbitScaleModes.MASSIVE
+				end
+			elseif(orbitScaleMode == OrbitScaleModes.MASSIVE) then
+				if(random() < 0.02) then
+					orbitScaleMode = OrbitScaleModes.NORMAL
+				end
+			end
 		elseif(audLevel < (audAverage - (audAverage/10))) then
 			audScale = math.min((audLevel * 1000), 15)
 			scene:setCameraOrigin(0, 0, CAM_ORIGIN + audScale)
+			
+			if(orbitScaleMode == OrbitScaleModes.MASSIVE) then
+				if(random() < 0.012) then
+					orbitScaleMode = OrbitScaleModes.NORMAL
+				end
+			end
 		end
 	else
 		audScale = 15
@@ -165,7 +189,7 @@ function renderOrbit()
 			playdate.graphics.setColor(playdate.graphics.kColorWhite)
 			playdate.graphics.setDitherPattern(0.7, playdate.graphics.image.kDitherTypeBayer4x4)
 			donutTime += audScale/150
-			for i = 90, 0, -1  do
+			for i = ORBIT_ORBS, 0, -1  do
 			
 				local q = (i * i)
 				local Q = sin(q)
@@ -184,6 +208,12 @@ function renderOrbit()
 				local p = i + donutTime
 				local z = 5 + cos(b) * (audScale/8) + cos(p) * Q
 				local s = 80 / z / z
+				
+				if(orbitScaleMode == OrbitScaleModes.NORMAL) then
+					orbitVerticalScale = 200
+				elseif(orbitScaleMode == OrbitScaleModes.MASSIVE) then
+					orbitVerticalScale = 200 + (audScale * 100)
+				end
 							
 				if(wireframeMode == DisplayModes.ALWAYS_OFF or wireframeMode == DisplayModes.INTERMITTENT_OFF) then
 					playdate.graphics.setColor(playdate.graphics.kColorWhite)
@@ -202,11 +232,11 @@ function renderOrbit()
 					else
 						playdate.graphics.setDitherPattern(0.8, playdate.graphics.image.kDitherTypeBayer4x4)
 					end
-					
-					playdate.graphics.fillCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + 200 * (cos(q)- cos(b+donutTime))/z), s + (audScale/3))
+										
+					playdate.graphics.fillCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + orbitVerticalScale * (cos(q)- cos(b+donutTime))/z), s + (audScale/2))
 				else
 					playdate.graphics.setColor(playdate.graphics.kColorWhite)
-					playdate.graphics.drawCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + 200 * (cos(q)- cos(b+donutTime))/z), s + (audScale/3))
+					playdate.graphics.drawCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + orbitVerticalScale * (cos(q)- cos(b+donutTime))/z), s + (audScale/2))
 				end
 			end
 		end
