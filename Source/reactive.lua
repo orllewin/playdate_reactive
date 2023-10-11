@@ -1,4 +1,8 @@
 import "CoreLibs/graphics"
+import "CoreLibs/object"
+import 'CoreLibs/timer'
+import 'CoreLibs/animator'
+import "intro"
 
 local graphics <const> = playdate.graphics
 local sound <const> = playdate.sound
@@ -52,10 +56,38 @@ orbitVerticalScale = 200
 roll = false
 rollDirection = -3
 
+-- Intro:
+local intro = Intro()
+local showIntro = true
+local introTime = true
+local fadeInTime = false
 
+if showIntro then
+	local identPlayer = playdate.sound.fileplayer.new("Audio/ident")
+	identPlayer:setVolume(0.35)
+	identPlayer:play()
+end
+
+local duration = 1500
+local animator = nil
+local blackImage = playdate.graphics.image.new(400, 240, playdate.graphics.kColorBlack)
+local fadetoImage = nil
+
+if showIntro then
+	playdate.timer.performAfterDelay(3500, function() 
+		introTime = false
+		playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeCopy)
+		fadeInTime = true
+		animator = playdate.graphics.animator.new(duration, 100,0)
+		
+	end)
+else
+	introTime = false
+	playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeCopy)
+end
 
 function playdate.update()
-	
+	playdate.timer.updateTimers()
 	graphics.clear(graphics.kColorBlack)
 	
 	local accY, accX = playdate.readAccelerometer()
@@ -70,6 +102,23 @@ function playdate.update()
 	updateWireframeStatus()
 	renderOrbit()
 	renderShape()
+	
+	-- INTRO/IDENT ----------------------------------------------------------------
+	if showIntro and introTime then 
+		intro:update()
+	end
+	
+	if fadeInTime then
+		local xx = 0
+		local yy = 0
+		alpha = animator:currentValue()
+		blackImage:drawFaded(xx, yy, alpha/100.0, playdate.graphics.image.kDitherTypeBayer8x8)
+		if alpha == 0 then 
+			fadeInTime = false 
+			playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
+			
+		end
+	end
 	
 	if(toastActive) then
 		playdate.graphics.drawText(toastText, 10, 10)

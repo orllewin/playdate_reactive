@@ -1,5 +1,6 @@
 name=Reactive
-author=
-description=
+author=Orllewin
+version=3.0.0
+description=3D audio reactive graphics
 bundleID=orllewin.playdate.reactive
-imagePath=
+buildNumber=30

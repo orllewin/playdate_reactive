@@ -1,6 +1,6 @@
-build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o: \
- /Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.c \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api.h \
+build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o: \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.c \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/stdint.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/machine/_default_types.h \
@@ -22,22 +22,22 @@ build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o: \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/sys/cdefs.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/machine/stdlib.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/alloca.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_gfx.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sys.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_lua.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_json.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_gfx.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sys.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_lua.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_json.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/string.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/xlocale.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/strings.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/sys/string.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_file.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sprite.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sound.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_file.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sprite.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sound.h \
  /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/math.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_display.h \
- /Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_scoreboards.h
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_display.h \
+ /Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_scoreboards.h
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api.h:
 
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h:
 
@@ -81,13 +81,13 @@ build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o: \
 
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/alloca.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_gfx.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_gfx.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sys.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sys.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_lua.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_lua.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_json.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_json.h:
 
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/string.h:
 
@@ -97,14 +97,14 @@ build//Users/orllewin/Developer/PlaydateSDK/C_API/buildsupport/setup.o: \
 
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/sys/string.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_file.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_file.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sprite.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sprite.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_sound.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_sound.h:
 
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/arm-none-eabi/include/math.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_display.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_display.h:
 
-/Users/orllewin/Developer/PlaydateSDK/C_API/pd_api/pd_api_scoreboards.h:
+/Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/pd_api/pd_api_scoreboards.h:
