@@ -1,8 +1,8 @@
 name=Reactive
 author=Orllewin
-version=3.0.0
+version=3.0.1
 description=3D audio reactive graphics
 bundleID=orllewin.playdate.reactive
-buildNumber=30
+buildNumber=31
 pdxversion=20000
-buildtime=750375369
+buildtime=750411406

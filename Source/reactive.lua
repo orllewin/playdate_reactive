@@ -46,8 +46,8 @@ donutTime = 0
 DisplayModes = {ALWAYS_OFF = "0", ALWAYS_ON = "1", INTERMITTENT_OFF = "2", INTERMITTENT_ON = "3"}
 orbitMode = DisplayModes.ALWAYS_ON
 shapeMode = DisplayModes.ALWAYS_ON
-wireframeMode = DisplayModes.ALWAYS_OFF
-reactiveMode = DisplayModes.ALWAYS_OFF
+wireframeMode = DisplayModes.INTERMITTENT_ON
+reactiveMode = DisplayModes.ALWAYS_ON
 
 OrbitScaleModes = {NORMAL = "0", MASSIVE = "1"}
 orbitScaleMode = OrbitScaleModes.NORMAL
@@ -369,7 +369,11 @@ function playdate.BButtonDown()
 end
 
 function playdate.AButtonDown() 
-	
+	if playdate.display.getInverted() == true then
+		playdate.display.setInverted(false)		
+	else
+		playdate.display.setInverted(true)
+	end
 end
 
 
