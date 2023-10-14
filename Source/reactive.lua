@@ -2,6 +2,7 @@ import "CoreLibs/graphics"
 import "CoreLibs/object"
 import 'CoreLibs/timer'
 import 'CoreLibs/animator'
+import "CoreLibs/sprites"
 import "intro"
 
 local graphics <const> = playdate.graphics
@@ -12,29 +13,41 @@ local random <const> = math.random
 
 playdate.startAccelerometer()
 sound.micinput.startListening()
-graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
+
+local orbImage = playdate.graphics.image.new("Images/orb_white")
+local orbInverted = orbImage:invertedImage()
+local orbSprite = playdate.graphics.sprite.new(orbImage)
+orbSprite:moveTo(200, 120)
+orbSprite:add()
+local orbAngle = 1
 
 CAM_ORIGIN = 40
-SHAPE_POLYGONS = 7
-ORBIT_ORBS = 70
+SHAPE_POLYGONS = 6
+ORBIT_ORBS = 60
 
 scene = lib3d.scene.new()
 scene:setCameraOrigin(0, 0, CAM_ORIGIN)
 scene:setLight(0.2, 0.8, 0.4)
 
-cube = lib3d.shape.new()
+local randomShape = nil
 
-for i=1, SHAPE_POLYGONS do
-	cube:addFace(
-		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
-		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
-		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
-		lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),	
-	0)
+function generateNewShape()
+	randomShape = lib3d.shape.new()
+	
+	for i=1, SHAPE_POLYGONS do
+		randomShape:addFace(
+			lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
+			lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
+			lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),		
+			lib3d.point.new(random(-10, 10), random(-10, 10), random(-10, 10)),	
+		0)
+	end
+	
+	sceneRootNode = scene:getRootNode()
+	sceneRootNode:addShape(randomShape)
 end
 
-sceneRootNode = scene:getRootNode()
-sceneRootNode:addShape(cube)
+generateNewShape()
 
 audLevel = 0.5
 audAverage = 0.5
@@ -48,6 +61,7 @@ orbitMode = DisplayModes.ALWAYS_ON
 shapeMode = DisplayModes.ALWAYS_ON
 wireframeMode = DisplayModes.INTERMITTENT_ON
 reactiveMode = DisplayModes.ALWAYS_ON
+spriteMode = DisplayModes.ALWAYS_OFF
 
 OrbitScaleModes = {NORMAL = "0", MASSIVE = "1"}
 orbitScaleMode = OrbitScaleModes.NORMAL
@@ -70,25 +84,30 @@ end
 
 local duration = 1500
 local animator = nil
-local blackImage = playdate.graphics.image.new(400, 240, playdate.graphics.kColorBlack)
+local introBackgroundImage = playdate.graphics.image.new(400, 240, playdate.graphics.kColorWhite)
 local fadetoImage = nil
 
 if showIntro then
 	playdate.timer.performAfterDelay(3500, function() 
 		introTime = false
-		playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeCopy)
 		fadeInTime = true
 		animator = playdate.graphics.animator.new(duration, 100,0)
 		
 	end)
 else
 	introTime = false
-	playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeCopy)
+end
+
+function map(value, start1, stop1, start2, stop2)
+	return start2 + (stop2 - start2) * ((value - start1) / (stop1 - start1))
 end
 
 function playdate.update()
+	graphics.clear(graphics.kColorWhite)
+	
 	playdate.timer.updateTimers()
-	graphics.clear(graphics.kColorBlack)
+	renderOrb()
+	
 	
 	local accY, accX = playdate.readAccelerometer()
 	local crankChange, crankAccChange = playdate.getCrankChange()
@@ -103,6 +122,7 @@ function playdate.update()
 	renderOrbit()
 	renderShape()
 	
+
 	-- INTRO/IDENT ----------------------------------------------------------------
 	if showIntro and introTime then 
 		intro:update()
@@ -112,10 +132,10 @@ function playdate.update()
 		local xx = 0
 		local yy = 0
 		alpha = animator:currentValue()
-		blackImage:drawFaded(xx, yy, alpha/100.0, playdate.graphics.image.kDitherTypeBayer8x8)
+		introBackgroundImage:drawFaded(xx, yy, alpha/100.0, playdate.graphics.image.kDitherTypeBayer8x8)
 		if alpha == 0 then 
 			fadeInTime = false 
-			playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
+			--playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
 			
 		end
 	end
@@ -134,7 +154,7 @@ function updateRoll()
 	if(roll) then
 		sceneRootNode:addTransform(lib3d.matrix.newRotation(rollDirection , 0, 0, 1))
 		
-		if(random() < 0.08) then 
+		if(random() < 0.12) then 
 			roll = false
 			
 			if(rollDirection == -3) then
@@ -198,11 +218,15 @@ function updateWireframeStatus()
 	end
 	
 	if(wireframeMode == DisplayModes.ALWAYS_ON or wireframeMode == DisplayModes.INTERMITTENT_ON)then
-		sceneRootNode:setFilled(false)
+		sceneRootNode:setWireframeColor(1.0)
 		sceneRootNode:setWireframeMode(2)
+		sceneRootNode:setWireframeColor(1.0)
+		sceneRootNode:setFilled(false) -- MUST be called after setWireframeMode
+		sceneRootNode:setWireframeColor(1.0)
+		sceneRootNode:setColorBias(0.0)
 	else
-		sceneRootNode:setFilled(true)
 		sceneRootNode:setWireframeMode(0)
+		sceneRootNode:setFilled(true)
 	end
 end
 
@@ -216,6 +240,7 @@ function renderShape()
 			shapeMode = DisplayModes.INTERMITTENT_OFF
 		end
 	end
+	
 	if(shapeMode == DisplayModes.ALWAYS_ON or shapeMode == DisplayModes.INTERMITTENT_ON) then 
 		scene:draw()
 	end	
@@ -234,8 +259,6 @@ function renderOrbit()
 		end
 		
 		if(orbitMode == DisplayModes.ALWAYS_ON or orbitMode == DisplayModes.INTERMITTENT_ON) then
-		
-			playdate.graphics.setColor(playdate.graphics.kColorWhite)
 			playdate.graphics.setDitherPattern(0.7, playdate.graphics.image.kDitherTypeBayer4x4)
 			donutTime += audScale/150
 			for i = ORBIT_ORBS, 0, -1  do
@@ -265,7 +288,7 @@ function renderOrbit()
 				end
 							
 				if(wireframeMode == DisplayModes.ALWAYS_OFF or wireframeMode == DisplayModes.INTERMITTENT_OFF) then
-					playdate.graphics.setColor(playdate.graphics.kColorWhite)
+
 					if(z < 3) then
 						playdate.graphics.setDitherPattern(0.0, playdate.graphics.image.kDitherTypeBayer4x4)
 					elseif(z < 4) then
@@ -284,11 +307,31 @@ function renderOrbit()
 										
 					playdate.graphics.fillCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + orbitVerticalScale * (cos(q)- cos(b+donutTime))/z), s + (audScale/2))
 				else
-					playdate.graphics.setColor(playdate.graphics.kColorWhite)
+					playdate.graphics.setColor(playdate.graphics.kColorBlack)
 					playdate.graphics.drawCircleAtPoint((200 * (z + sin(b) * 5 + sin(p) * Q) / z), (120 + orbitVerticalScale * (cos(q)- cos(b+donutTime))/z), s + (audScale/2))
 				end
 			end
 		end
+	end
+end
+
+function renderOrb()
+	
+	if (spriteMode == DisplayModes.ALWAYS_OFF) then
+		if(random() < 0.01) then 
+			spriteMode = DisplayModes.ALWAYS_ON
+		end
+	else
+		if(random() < 0.02) then 
+			spriteMode = DisplayModes.ALWAYS_OFF
+		end
+	end
+	
+	if (spriteMode == DisplayModes.ALWAYS_ON) then
+		playdate.graphics.sprite.update()
+		orbAngle += 0.5
+		orbSprite:setRotation(orbAngle)
+		orbSprite:setScale(map(audScale, 1, 15, 0.5, 1.5))
 	end
 end
 

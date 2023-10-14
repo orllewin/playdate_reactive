@@ -25,11 +25,6 @@ Archive member included to satisfy reference by file (symbol)
 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
                               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o) (scalbnf)
 
-Allocating common symbols
-Common symbol       size              file
-
-m3d_realloc         0x4               build/mini3d/mini3d.o
-
 Discarded input sections
 
  .group         0x0000000000000000        0xc build/main.o
@@ -75,27 +70,245 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/main.o
  .data          0x0000000000000000        0x0 build/main.o
  .bss           0x0000000000000000        0x0 build/main.o
+ .group         0x0000000000000000        0xc build/mini3d/mini3d.o
+ .group         0x0000000000000000        0xc build/mini3d/mini3d.o
+ .group         0x0000000000000000        0xc build/mini3d/mini3d.o
+ .group         0x0000000000000000        0xc build/mini3d/mini3d.o
  .text          0x0000000000000000        0x0 build/mini3d/mini3d.o
  .data          0x0000000000000000        0x0 build/mini3d/mini3d.o
  .bss           0x0000000000000000        0x0 build/mini3d/mini3d.o
+ .debug_macro   0x0000000000000000      0xaa8 build/mini3d/mini3d.o
  .text          0x0000000000000000        0x0 build/mini3d/3dmath.o
  .data          0x0000000000000000        0x0 build/mini3d/3dmath.o
  .bss           0x0000000000000000        0x0 build/mini3d/3dmath.o
  .text.Vector3D_normalize
                 0x0000000000000000       0x24 build/mini3d/3dmath.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/scene.o
  .text          0x0000000000000000        0x0 build/mini3d/scene.o
  .data          0x0000000000000000        0x0 build/mini3d/scene.o
  .bss           0x0000000000000000        0x0 build/mini3d/scene.o
  .text.Scene3DNode_init
                 0x0000000000000000       0x48 build/mini3d/scene.o
- .text.Scene3DNode_setUsesZBuffer
-                0x0000000000000000       0x1c build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0xaa8 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x18 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x22 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x58 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x94 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x34 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x57 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x58 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x1f build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x43 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x20 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0x18e build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0x339 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x29 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x6a build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x52 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0xd7 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x3d build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0x16f build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0xef build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0x1df build/mini3d/scene.o
+ .debug_macro   0x0000000000000000      0x1e1 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/scene.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/scene.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/shape.o
  .text          0x0000000000000000        0x0 build/mini3d/shape.o
  .data          0x0000000000000000        0x0 build/mini3d/shape.o
  .bss           0x0000000000000000        0x0 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0xaa8 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x174 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x22 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x58 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x18 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x94 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x34 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x57 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x339 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x58 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x1f build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x43 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x20 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x18e build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x6a build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x52 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0xd7 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x3d build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x16f build/mini3d/shape.o
+ .debug_macro   0x0000000000000000       0xef build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x1df build/mini3d/shape.o
+ .debug_macro   0x0000000000000000      0x1e1 build/mini3d/shape.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
+ .group         0x0000000000000000        0xc build/mini3d/render.o
  .text          0x0000000000000000        0x0 build/mini3d/render.o
  .data          0x0000000000000000        0x0 build/mini3d/render.o
  .bss           0x0000000000000000        0x0 build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0xaa8 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x22 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0xef build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x6a build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x1df build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x18 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x34 build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x174 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x58 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x1f build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x43 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x20 build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x18e build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x339 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x35 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x52 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x40 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0xd7 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x1c build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x3d build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x16f build/mini3d/render.o
+ .debug_macro   0x0000000000000000      0x1e1 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x16 build/mini3d/render.o
+ .debug_macro   0x0000000000000000       0x10 build/mini3d/render.o
  .group         0x0000000000000000        0xc build/luaglue.o
  .group         0x0000000000000000        0xc build/luaglue.o
  .group         0x0000000000000000        0xc build/luaglue.o
@@ -148,6 +361,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x94 build/luaglue.o
  .debug_macro   0x0000000000000000       0x35 build/luaglue.o
  .debug_macro   0x0000000000000000       0x34 build/luaglue.o
+ .debug_macro   0x0000000000000000      0x174 build/luaglue.o
  .debug_macro   0x0000000000000000       0x57 build/luaglue.o
  .debug_macro   0x0000000000000000       0x58 build/luaglue.o
  .debug_macro   0x0000000000000000       0x1f build/luaglue.o
@@ -166,6 +380,9 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x2e build/luaglue.o
  .debug_macro   0x0000000000000000       0x16 build/luaglue.o
  .debug_macro   0x0000000000000000       0x22 build/luaglue.o
+ .debug_macro   0x0000000000000000       0x16 build/luaglue.o
+ .debug_macro   0x0000000000000000       0x10 build/luaglue.o
+ .debug_macro   0x0000000000000000       0x1c build/luaglue.o
  .debug_macro   0x0000000000000000       0x10 build/luaglue.o
  .debug_macro   0x0000000000000000       0x10 build/luaglue.o
  .debug_macro   0x0000000000000000       0x1c build/luaglue.o
@@ -215,13 +432,18 @@ Discarded input sections
  .text._free_r  0x0000000000000000       0x14 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000      0xaa8 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x22 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x0000000000000000       0x8e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x0000000000000000       0x51 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0xef build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x6a build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000      0x1df build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x18 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x0000000000000000       0x5e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x35 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x34 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x16 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x0000000000000000      0x10e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x0000000000000000       0x8d build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x58 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x1f build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  .debug_macro   0x0000000000000000       0x43 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
@@ -298,7 +520,7 @@ LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
 LOAD /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 END GROUP
 
-.text           0x0000000000000000     0x5de8
+.text           0x0000000000000000     0x4e8c
  *(.text)
  .text          0x0000000000000000      0x2dc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
                 0x0000000000000008                strcmp
@@ -367,260 +589,231 @@ END GROUP
                 0x00000000000009b0                Scene3DNode_setVisible
  *fill*         0x00000000000009c8        0x8 
  .text.Scene3DNode_addShapeWithTransform
-                0x00000000000009d0      0x158 build/mini3d/scene.o
+                0x00000000000009d0      0x148 build/mini3d/scene.o
                 0x00000000000009d0                Scene3DNode_addShapeWithTransform
- *fill*         0x0000000000000b28        0x8 
+ *fill*         0x0000000000000b18        0x8 
  .text.Scene3DNode_addShapeWithOffset
-                0x0000000000000b30       0x44 build/mini3d/scene.o
-                0x0000000000000b30                Scene3DNode_addShapeWithOffset
- *fill*         0x0000000000000b74        0xc 
+                0x0000000000000b20       0x44 build/mini3d/scene.o
+                0x0000000000000b20                Scene3DNode_addShapeWithOffset
+ *fill*         0x0000000000000b64        0xc 
  .text.Scene3DNode_addShape
-                0x0000000000000b80       0x34 build/mini3d/scene.o
-                0x0000000000000b80                Scene3DNode_addShape
- *fill*         0x0000000000000bb4        0xc 
+                0x0000000000000b70       0x34 build/mini3d/scene.o
+                0x0000000000000b70                Scene3DNode_addShape
+ *fill*         0x0000000000000ba4        0xc 
  .text.Scene3DNode_newChild
-                0x0000000000000bc0       0x74 build/mini3d/scene.o
-                0x0000000000000bc0                Scene3DNode_newChild
- *fill*         0x0000000000000c34        0xc 
+                0x0000000000000bb0       0x74 build/mini3d/scene.o
+                0x0000000000000bb0                Scene3DNode_newChild
+ *fill*         0x0000000000000c24        0xc 
  .text.Scene3D_updateNode
-                0x0000000000000c40      0x44c build/mini3d/scene.o
-                0x0000000000000c40                Scene3D_updateNode
- *fill*         0x000000000000108c        0x4 
+                0x0000000000000c30      0x330 build/mini3d/scene.o
+                0x0000000000000c30                Scene3D_updateNode
  .text.Scene3D_deinit
-                0x0000000000001090       0x24 build/mini3d/scene.o
-                0x0000000000001090                Scene3D_deinit
- *fill*         0x00000000000010b4        0xc 
+                0x0000000000000f60       0x24 build/mini3d/scene.o
+                0x0000000000000f60                Scene3D_deinit
+ *fill*         0x0000000000000f84        0xc 
  .text.Scene3D_setGlobalLight
-                0x00000000000010c0       0x20 build/mini3d/scene.o
-                0x00000000000010c0                Scene3D_setGlobalLight
+                0x0000000000000f90       0x20 build/mini3d/scene.o
+                0x0000000000000f90                Scene3D_setGlobalLight
  .text.Scene3D_setCenter
-                0x00000000000010e0        0xc build/mini3d/scene.o
-                0x00000000000010e0                Scene3D_setCenter
- *fill*         0x00000000000010ec        0x4 
+                0x0000000000000fb0        0xc build/mini3d/scene.o
+                0x0000000000000fb0                Scene3D_setCenter
+ *fill*         0x0000000000000fbc        0x4 
  .text.Scene3D_getRootNode
-                0x00000000000010f0        0x4 build/mini3d/scene.o
-                0x00000000000010f0                Scene3D_getRootNode
- *fill*         0x00000000000010f4        0xc 
+                0x0000000000000fc0        0x4 build/mini3d/scene.o
+                0x0000000000000fc0                Scene3D_getRootNode
+ *fill*         0x0000000000000fc4        0xc 
  .text.Scene3D_setCamera
-                0x0000000000001100      0x2cc build/mini3d/scene.o
-                0x0000000000001100                Scene3D_setCamera
- *fill*         0x00000000000013cc        0x4 
+                0x0000000000000fd0      0x2cc build/mini3d/scene.o
+                0x0000000000000fd0                Scene3D_setCamera
+ *fill*         0x000000000000129c        0x4 
  .text.Scene3D_init
-                0x00000000000013d0       0xb0 build/mini3d/scene.o
-                0x00000000000013d0                Scene3D_init
+                0x00000000000012a0       0xb0 build/mini3d/scene.o
+                0x00000000000012a0                Scene3D_init
  .text.Scene3D_drawNode
-                0x0000000000001480      0x8e8 build/mini3d/scene.o
-                0x0000000000001480                Scene3D_drawNode
- *fill*         0x0000000000001d68        0x8 
+                0x0000000000001350      0x55c build/mini3d/scene.o
+                0x0000000000001350                Scene3D_drawNode
+ *fill*         0x00000000000018ac        0x4 
  .text.Scene3D_draw
-                0x0000000000001d70       0x68 build/mini3d/scene.o
-                0x0000000000001d70                Scene3D_draw
- *fill*         0x0000000000001dd8        0x8 
+                0x00000000000018b0       0x54 build/mini3d/scene.o
+                0x00000000000018b0                Scene3D_draw
+ *fill*         0x0000000000001904        0xc 
  .text.Shape3D_init
-                0x0000000000001de0       0x28 build/mini3d/shape.o
-                0x0000000000001de0                Shape3D_init
- *fill*         0x0000000000001e08        0x8 
+                0x0000000000001910       0x24 build/mini3d/shape.o
+                0x0000000000001910                Shape3D_init
+ *fill*         0x0000000000001934        0xc 
  .text.Shape3D_retain
-                0x0000000000001e10        0x8 build/mini3d/shape.o
-                0x0000000000001e10                Shape3D_retain
- *fill*         0x0000000000001e18        0x8 
+                0x0000000000001940        0x8 build/mini3d/shape.o
+                0x0000000000001940                Shape3D_retain
+ *fill*         0x0000000000001948        0x8 
  .text.Shape3D_release
-                0x0000000000001e20       0x38 build/mini3d/shape.o
-                0x0000000000001e20                Shape3D_release
- *fill*         0x0000000000001e58        0x8 
+                0x0000000000001950       0x38 build/mini3d/shape.o
+                0x0000000000001950                Shape3D_release
+ *fill*         0x0000000000001988        0x8 
  .text.Shape3D_addPoint
-                0x0000000000001e60       0x90 build/mini3d/shape.o
-                0x0000000000001e60                Shape3D_addPoint
+                0x0000000000001990       0x90 build/mini3d/shape.o
+                0x0000000000001990                Shape3D_addPoint
  .text.Shape3D_addFace
-                0x0000000000001ef0      0x1c0 build/mini3d/shape.o
-                0x0000000000001ef0                Shape3D_addFace
+                0x0000000000001a20      0x1c0 build/mini3d/shape.o
+                0x0000000000001a20                Shape3D_addFace
  .text.Shape3D_setClosed
-                0x00000000000020b0       0x10 build/mini3d/shape.o
-                0x00000000000020b0                Shape3D_setClosed
- .text.Shape3D_setOrderTableSize
-                0x00000000000020c0        0x4 build/mini3d/shape.o
-                0x00000000000020c0                Shape3D_setOrderTableSize
- *fill*         0x00000000000020c4        0xc 
+                0x0000000000001be0       0x10 build/mini3d/shape.o
+                0x0000000000001be0                Shape3D_setClosed
  .text.drawFragment.part.0
-                0x00000000000020d0       0xe0 build/mini3d/render.o
+                0x0000000000001bf0       0xe0 build/mini3d/render.o
  .text.fillRange
-                0x00000000000021b0       0xd8 build/mini3d/render.o
- *fill*         0x0000000000002288        0x8 
- .text.drawFragment_zbuf.part.0
-                0x0000000000002290       0xe0 build/mini3d/render.o
- .text.fillRange_zbuf
-                0x0000000000002370      0x13c build/mini3d/render.o
- *fill*         0x00000000000024ac        0x4 
- .text.resetZBuffer
-                0x00000000000024b0       0x44 build/mini3d/render.o
-                0x00000000000024b0                resetZBuffer
- *fill*         0x00000000000024f4        0xc 
- .text.drawLine_zbuf
-                0x0000000000002500      0x30c build/mini3d/render.o
-                0x0000000000002500                drawLine_zbuf
- *fill*         0x000000000000280c        0x4 
+                0x0000000000001cd0       0xd8 build/mini3d/render.o
+ *fill*         0x0000000000001da8        0x8 
  .text.drawLine
-                0x0000000000002810      0x1e8 build/mini3d/render.o
-                0x0000000000002810                drawLine
- *fill*         0x00000000000029f8        0x8 
+                0x0000000000001db0      0x1e8 build/mini3d/render.o
+                0x0000000000001db0                drawLine
+ *fill*         0x0000000000001f98        0x8 
  .text.fillTriangle
-                0x0000000000002a00      0x2ac build/mini3d/render.o
-                0x0000000000002a00                fillTriangle
- *fill*         0x0000000000002cac        0x4 
- .text.fillTriangle_zbuf
-                0x0000000000002cb0      0x454 build/mini3d/render.o
-                0x0000000000002cb0                fillTriangle_zbuf
- *fill*         0x0000000000003104        0xc 
+                0x0000000000001fa0      0x2ac build/mini3d/render.o
+                0x0000000000001fa0                fillTriangle
+ *fill*         0x000000000000224c        0x4 
  .text.fillQuad
-                0x0000000000003110       0x38 build/mini3d/render.o
-                0x0000000000003110                fillQuad
- *fill*         0x0000000000003148        0x8 
- .text.fillQuad_zbuf
-                0x0000000000003150       0x38 build/mini3d/render.o
-                0x0000000000003150                fillQuad_zbuf
- *fill*         0x0000000000003188        0x8 
- .text.node_gc  0x0000000000003190        0x4 build/luaglue.o
- *fill*         0x0000000000003194        0xc 
+                0x0000000000002250       0x38 build/mini3d/render.o
+                0x0000000000002250                fillQuad
+ *fill*         0x0000000000002288        0x8 
+ .text.node_gc  0x0000000000002290        0x4 build/luaglue.o
+ *fill*         0x0000000000002294        0xc 
  .text.point_new
-                0x00000000000031a0       0x58 build/luaglue.o
- *fill*         0x00000000000031f8        0x8 
+                0x00000000000022a0       0x58 build/luaglue.o
+ *fill*         0x00000000000022f8        0x8 
  .text.matrix_newRotation
-                0x0000000000003200      0x14c build/luaglue.o
- *fill*         0x000000000000334c        0x4 
+                0x0000000000002300      0x14c build/luaglue.o
+ *fill*         0x000000000000244c        0x4 
  .text.matrix_new
-                0x0000000000003350       0xfc build/luaglue.o
- *fill*         0x000000000000344c        0x4 
+                0x0000000000002450       0xfc build/luaglue.o
+ *fill*         0x000000000000254c        0x4 
  .text.shape_new
-                0x0000000000003450       0x38 build/luaglue.o
- *fill*         0x0000000000003488        0x8 
+                0x0000000000002550       0x38 build/luaglue.o
+ *fill*         0x0000000000002588        0x8 
  .text.scene_new
-                0x0000000000003490       0x34 build/luaglue.o
- *fill*         0x00000000000034c4        0xc 
+                0x0000000000002590       0x34 build/luaglue.o
+ *fill*         0x00000000000025c4        0xc 
  .text.get3DObj
-                0x00000000000034d0       0x34 build/luaglue.o
- *fill*         0x0000000000003504        0xc 
+                0x00000000000025d0       0x34 build/luaglue.o
+ *fill*         0x0000000000002604        0xc 
  .text.point_gc
-                0x0000000000003510       0x20 build/luaglue.o
+                0x0000000000002610       0x20 build/luaglue.o
  .text.matrix_gc
-                0x0000000000003530       0x20 build/luaglue.o
+                0x0000000000002630       0x20 build/luaglue.o
  .text.matrix_addTranslation
-                0x0000000000003550       0x5c build/luaglue.o
- *fill*         0x00000000000035ac        0x4 
+                0x0000000000002650       0x5c build/luaglue.o
+ *fill*         0x00000000000026ac        0x4 
  .text.matrix_mul
-                0x00000000000035b0       0x98 build/luaglue.o
- *fill*         0x0000000000003648        0x8 
+                0x00000000000026b0       0x98 build/luaglue.o
+ *fill*         0x0000000000002748        0x8 
  .text.point_mul
-                0x0000000000003650       0x84 build/luaglue.o
- *fill*         0x00000000000036d4        0xc 
+                0x0000000000002750       0x84 build/luaglue.o
+ *fill*         0x00000000000027d4        0xc 
  .text.point_newindex
-                0x00000000000036e0       0x74 build/luaglue.o
- *fill*         0x0000000000003754        0xc 
+                0x00000000000027e0       0x74 build/luaglue.o
+ *fill*         0x0000000000002854        0xc 
  .text.point_index
-                0x0000000000003760       0x78 build/luaglue.o
- *fill*         0x00000000000037d8        0x8 
- .text.shape_setOrderTableSize
-                0x00000000000037e0       0x2c build/luaglue.o
- *fill*         0x000000000000380c        0x4 
+                0x0000000000002860       0x78 build/luaglue.o
+ *fill*         0x00000000000028d8        0x8 
  .text.shape_setClosed
-                0x0000000000003810       0x2c build/luaglue.o
- *fill*         0x000000000000383c        0x4 
+                0x00000000000028e0       0x2c build/luaglue.o
+ *fill*         0x000000000000290c        0x4 
  .text.shape_addFace
-                0x0000000000003840       0xa0 build/luaglue.o
+                0x0000000000002910       0xa0 build/luaglue.o
  .text.shape_gc
-                0x00000000000038e0       0x18 build/luaglue.o
- *fill*         0x00000000000038f8        0x8 
+                0x00000000000029b0       0x18 build/luaglue.o
+ *fill*         0x00000000000029c8        0x8 
  .text.node_setVisible
-                0x0000000000003900       0x2c build/luaglue.o
- *fill*         0x000000000000392c        0x4 
+                0x00000000000029d0       0x2c build/luaglue.o
+ *fill*         0x00000000000029fc        0x4 
  .text.node_setWireframeColor
-                0x0000000000003930       0x48 build/luaglue.o
- *fill*         0x0000000000003978        0x8 
+                0x0000000000002a00       0x34 build/luaglue.o
+ *fill*         0x0000000000002a34        0xc 
  .text.node_setWireframeMode
-                0x0000000000003980       0x60 build/luaglue.o
+                0x0000000000002a40       0x60 build/luaglue.o
  .text.node_setFilled
-                0x00000000000039e0       0x48 build/luaglue.o
- *fill*         0x0000000000003a28        0x8 
+                0x0000000000002aa0       0x48 build/luaglue.o
+ *fill*         0x0000000000002ae8        0x8 
  .text.node_setColorBias
-                0x0000000000003a30       0x2c build/luaglue.o
- *fill*         0x0000000000003a5c        0x4 
+                0x0000000000002af0       0x2c build/luaglue.o
+ *fill*         0x0000000000002b1c        0x4 
  .text.node_scaleBy
-                0x0000000000003a60      0x14c build/luaglue.o
- *fill*         0x0000000000003bac        0x4 
+                0x0000000000002b20      0x14c build/luaglue.o
+ *fill*         0x0000000000002c6c        0x4 
  .text.node_setTransform
-                0x0000000000003bb0       0x28 build/luaglue.o
- *fill*         0x0000000000003bd8        0x8 
+                0x0000000000002c70       0x28 build/luaglue.o
+ *fill*         0x0000000000002c98        0x8 
  .text.node_translateBy
-                0x0000000000003be0       0x74 build/luaglue.o
- *fill*         0x0000000000003c54        0xc 
+                0x0000000000002ca0       0x74 build/luaglue.o
+ *fill*         0x0000000000002d14        0xc 
  .text.node_addTransform
-                0x0000000000003c60       0x28 build/luaglue.o
- *fill*         0x0000000000003c88        0x8 
+                0x0000000000002d20       0x28 build/luaglue.o
+ *fill*         0x0000000000002d48        0x8 
  .text.node_addShape
-                0x0000000000003c90       0xc8 build/luaglue.o
- *fill*         0x0000000000003d58        0x8 
+                0x0000000000002d50       0xc8 build/luaglue.o
+ *fill*         0x0000000000002e18        0x8 
  .text.node_makeChildNode
-                0x0000000000003d60       0x28 build/luaglue.o
- *fill*         0x0000000000003d88        0x8 
+                0x0000000000002e20       0x28 build/luaglue.o
+ *fill*         0x0000000000002e48        0x8 
  .text.scene_setCameraUp
-                0x0000000000003d90       0x8c build/luaglue.o
- *fill*         0x0000000000003e1c        0x4 
+                0x0000000000002e50       0x8c build/luaglue.o
+ *fill*         0x0000000000002edc        0x4 
  .text.scene_setCameraTarget
-                0x0000000000003e20       0x8c build/luaglue.o
- *fill*         0x0000000000003eac        0x4 
+                0x0000000000002ee0       0x8c build/luaglue.o
+ *fill*         0x0000000000002f6c        0x4 
  .text.scene_setCameraScale
-                0x0000000000003eb0       0x70 build/luaglue.o
+                0x0000000000002f70       0x70 build/luaglue.o
  .text.scene_setCameraOrigin
-                0x0000000000003f20       0x8c build/luaglue.o
- *fill*         0x0000000000003fac        0x4 
+                0x0000000000002fe0       0x8c build/luaglue.o
+ *fill*         0x000000000000306c        0x4 
  .text.scene_setCenter
-                0x0000000000003fb0       0x48 build/luaglue.o
- *fill*         0x0000000000003ff8        0x8 
+                0x0000000000003070       0x48 build/luaglue.o
+ *fill*         0x00000000000030b8        0x8 
  .text.scene_setLight
-                0x0000000000004000       0x60 build/luaglue.o
+                0x00000000000030c0       0x60 build/luaglue.o
  .text.scene_getRoot
-                0x0000000000004060       0x2c build/luaglue.o
- *fill*         0x000000000000408c        0x4 
+                0x0000000000003120       0x2c build/luaglue.o
+ *fill*         0x000000000000314c        0x4 
  .text.scene_drawNode
-                0x0000000000004090       0x50 build/luaglue.o
+                0x0000000000003150       0x50 build/luaglue.o
  .text.scene_draw
-                0x00000000000040e0       0x3c build/luaglue.o
- *fill*         0x000000000000411c        0x4 
+                0x00000000000031a0       0x3c build/luaglue.o
+ *fill*         0x00000000000031dc        0x4 
  .text.scene_gc
-                0x0000000000004120       0x28 build/luaglue.o
- *fill*         0x0000000000004148        0x8 
+                0x00000000000031e0       0x28 build/luaglue.o
+ *fill*         0x0000000000003208        0x8 
  .text.register3D
-                0x0000000000004150      0x10c build/luaglue.o
-                0x0000000000004150                register3D
- *fill*         0x000000000000425c        0x4 
+                0x0000000000003210      0x10c build/luaglue.o
+                0x0000000000003210                register3D
+ *fill*         0x000000000000331c        0x4 
  .text.eventHandlerShim
-                0x0000000000004260       0x1c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
-                0x0000000000004260                eventHandlerShim
- .text.memset   0x000000000000427c       0xa0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
-                0x000000000000427c                memset
- .text.qsort    0x000000000000431c      0x648 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
-                0x000000000000431c                qsort
- .text.cosf     0x0000000000004964       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
-                0x0000000000004964                cosf
- .text.sinf     0x00000000000049f4       0x94 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
-                0x00000000000049f4                sinf
+                0x0000000000003320       0x1c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+                0x0000000000003320                eventHandlerShim
+ .text.memset   0x000000000000333c       0xa0 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+                0x000000000000333c                memset
+ .text.qsort    0x00000000000033dc      0x648 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+                0x00000000000033dc                qsort
+ .text.cosf     0x0000000000003a24       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+                0x0000000000003a24                cosf
+ .text.sinf     0x0000000000003ab4       0x94 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+                0x0000000000003ab4                sinf
  .text.__ieee754_rem_pio2f
-                0x0000000000004a88      0x294 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
-                0x0000000000004a88                __ieee754_rem_pio2f
+                0x0000000000003b48      0x294 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000000003b48                __ieee754_rem_pio2f
  .text.__kernel_cosf
-                0x0000000000004d1c      0x104 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
-                0x0000000000004d1c                __kernel_cosf
+                0x0000000000003ddc      0x104 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+                0x0000000000003ddc                __kernel_cosf
  .text.__kernel_rem_pio2f
-                0x0000000000004e20      0x66c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
-                0x0000000000004e20                __kernel_rem_pio2f
+                0x0000000000003ee0      0x66c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000000003ee0                __kernel_rem_pio2f
  .text.__kernel_sinf
-                0x000000000000548c       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
-                0x000000000000548c                __kernel_sinf
- .text.fabsf    0x000000000000551c       0x10 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
-                0x000000000000551c                fabsf
- .text.floorf   0x000000000000552c       0x8c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
-                0x000000000000552c                floorf
- .text.scalbnf  0x00000000000055b8       0xe4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
-                0x00000000000055b8                scalbnf
+                0x000000000000454c       0x90 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+                0x000000000000454c                __kernel_sinf
+ .text.fabsf    0x00000000000045dc       0x10 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+                0x00000000000045dc                fabsf
+ .text.floorf   0x00000000000045ec       0x8c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+                0x00000000000045ec                floorf
+ .text.scalbnf  0x0000000000004678       0xe4 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+                0x0000000000004678                scalbnf
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -635,148 +828,147 @@ END GROUP
  *(.dtors)
  *(.rodata*)
  .rodata.point_new.str1.4
-                0x000000000000569c        0xc build/luaglue.o
+                0x000000000000475c        0xc build/luaglue.o
  .rodata.matrix_newRotation.str1.4
-                0x00000000000056a8        0xd build/luaglue.o
- *fill*         0x00000000000056b5        0x3 
+                0x0000000000004768        0xd build/luaglue.o
+ *fill*         0x0000000000004775        0x3 
  .rodata.shape_new.str1.4
-                0x00000000000056b8        0xc build/luaglue.o
+                0x0000000000004778        0xc build/luaglue.o
  .rodata.scene_new.str1.4
-                0x00000000000056c4        0xc build/luaglue.o
+                0x0000000000004784        0xc build/luaglue.o
  .rodata.get3DObj.str1.4
-                0x00000000000056d0       0x31 build/luaglue.o
- *fill*         0x0000000000005701        0x3 
+                0x0000000000004790       0x31 build/luaglue.o
+ *fill*         0x00000000000047c1        0x3 
  .rodata.node_setVisible.str1.4
-                0x0000000000005704       0x10 build/luaglue.o
+                0x00000000000047c4       0x10 build/luaglue.o
  .rodata.register3D.str1.4
-                0x0000000000005714       0x2c build/luaglue.o
+                0x00000000000047d4       0x2c build/luaglue.o
  .rodata.str1.4
-                0x0000000000005740      0x180 build/luaglue.o
+                0x0000000000004800      0x16c build/luaglue.o
  .rodata.lib3DMatrix
-                0x00000000000058c0       0x30 build/luaglue.o
+                0x000000000000496c       0x30 build/luaglue.o
  .rodata.lib3DNode
-                0x00000000000058f0       0x68 build/luaglue.o
+                0x000000000000499c       0x68 build/luaglue.o
  .rodata.lib3DPoint
-                0x0000000000005958       0x30 build/luaglue.o
+                0x0000000000004a04       0x30 build/luaglue.o
  .rodata.lib3DScene
-                0x0000000000005988       0x60 build/luaglue.o
+                0x0000000000004a34       0x60 build/luaglue.o
  .rodata.lib3DShape
-                0x00000000000059e8       0x30 build/luaglue.o
+                0x0000000000004a94       0x28 build/luaglue.o
  .rodata.npio2_hw
-                0x0000000000005a18       0x80 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+                0x0000000000004abc       0x80 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
  .rodata.two_over_pi
-                0x0000000000005a98      0x318 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
- .rodata.PIo2   0x0000000000005db0       0x2c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000000004b3c      0x318 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x0000000000004e54       0x2c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
  .rodata.init_jk
-                0x0000000000005ddc        0xc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+                0x0000000000004e80        0xc /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
  *(.eh_frame*)
 
-.glue_7         0x0000000000005de8        0x0
- .glue_7        0x0000000000005de8        0x0 linker stubs
+.glue_7         0x0000000000004e8c        0x0
+ .glue_7        0x0000000000004e8c        0x0 linker stubs
 
-.glue_7t        0x0000000000005de8        0x0
- .glue_7t       0x0000000000005de8        0x0 linker stubs
+.glue_7t        0x0000000000004e8c        0x0
+ .glue_7t       0x0000000000004e8c        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000005de8        0x0
- .vfp11_veneer  0x0000000000005de8        0x0 linker stubs
+.vfp11_veneer   0x0000000000004e8c        0x0
+ .vfp11_veneer  0x0000000000004e8c        0x0 linker stubs
 
-.v4_bx          0x0000000000005de8        0x0
- .v4_bx         0x0000000000005de8        0x0 linker stubs
+.v4_bx          0x0000000000004e8c        0x0
+ .v4_bx         0x0000000000004e8c        0x0 linker stubs
 
-.iplt           0x0000000000005de8        0x0
- .iplt          0x0000000000005de8        0x0 build/main.o
+.iplt           0x0000000000004e8c        0x0
+ .iplt          0x0000000000004e8c        0x0 build/main.o
 
-.rel.dyn        0x0000000000005de8        0x0
- .rel.iplt      0x0000000000005de8        0x0 build/main.o
+.rel.dyn        0x0000000000004e8c        0x0
+ .rel.iplt      0x0000000000004e8c        0x0 build/main.o
 
-.data           0x0000000000005de8      0x158
-                0x0000000000005de8                __etext = .
-                0x0000000000005de8                __data_start__ = .
+.data           0x0000000000004e8c      0x158
+                0x0000000000004e8c                __etext = .
+                0x0000000000004e8c                __data_start__ = .
  *(vtable)
  *(.data*)
  .data.identityMatrix
-                0x0000000000005de8       0x34 build/mini3d/3dmath.o
-                0x0000000000005de8                identityMatrix
+                0x0000000000004e8c       0x34 build/mini3d/3dmath.o
+                0x0000000000004e8c                identityMatrix
  .data.patterns
-                0x0000000000005e1c      0x108 build/mini3d/scene.o
+                0x0000000000004ec0      0x108 build/mini3d/scene.o
  .data.cameraOrigin
-                0x0000000000005f24        0xc build/luaglue.o
+                0x0000000000004fc8        0xc build/luaglue.o
  .data.cameraScale
-                0x0000000000005f30        0x4 build/luaglue.o
+                0x0000000000004fd4        0x4 build/luaglue.o
  .data.cameraUp
-                0x0000000000005f34        0xc build/luaglue.o
-                0x0000000000005f40                . = ALIGN (0x4)
+                0x0000000000004fd8        0xc build/luaglue.o
+                0x0000000000004fe4                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
                 [!provide]                        PROVIDE (__preinit_array_end = .)
-                0x0000000000005f40                . = ALIGN (0x4)
+                0x0000000000004fe4                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
                 [!provide]                        PROVIDE (__init_array_end = .)
-                0x0000000000005f40                . = ALIGN (0x4)
+                0x0000000000004fe4                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000000005f40                . = ALIGN (0x4)
-                0x0000000000005f40                __data_end__ = .
+                0x0000000000004fe4                . = ALIGN (0x4)
+                0x0000000000004fe4                __data_end__ = .
 
-.igot.plt       0x0000000000005f40        0x0
- .igot.plt      0x0000000000005f40        0x0 build/main.o
+.igot.plt       0x0000000000004fe4        0x0
+ .igot.plt      0x0000000000004fe4        0x0 build/main.o
 
-.bss            0x0000000000005f40    0x2ee1c
-                0x0000000000005f40                . = ALIGN (0x4)
-                0x0000000000005f40                __bss_start__ = .
+.bss            0x0000000000004fe4       0x18
+                0x0000000000004fe4                . = ALIGN (0x4)
+                0x0000000000004fe4                __bss_start__ = .
  *(.bss*)
- .bss.zbuf      0x0000000000005f40    0x2ee00 build/mini3d/render.o
- .bss.zscale    0x0000000000034d40        0x4 build/mini3d/render.o
+ .bss.m3d_realloc
+                0x0000000000004fe4        0x4 build/mini3d/mini3d.o
+                0x0000000000004fe4                m3d_realloc
  .bss.cameraLookat
-                0x0000000000034d44        0xc build/luaglue.o
- .bss.pd        0x0000000000034d50        0x4 build/luaglue.o
+                0x0000000000004fe8        0xc build/luaglue.o
+ .bss.pd        0x0000000000004ff4        0x4 build/luaglue.o
  .bss.pdrealloc
-                0x0000000000034d54        0x4 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+                0x0000000000004ff8        0x4 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
  *(COMMON)
- COMMON         0x0000000000034d58        0x4 build/mini3d/mini3d.o
-                0x0000000000034d58                m3d_realloc
  *(COM)
-                0x0000000000034d5c                . = ALIGN (0x4)
-                0x0000000000034d5c                __bss_end__ = .
+                0x0000000000004ffc                . = ALIGN (0x4)
+                0x0000000000004ffc                __bss_end__ = .
 
 /DISCARD/
  *(.ARM.exidx)
 OUTPUT(build/pdex.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x1c749
+.debug_info     0x0000000000000000    0x1b0da
  .debug_info    0x0000000000000000     0x61fc build/main.o
- .debug_info    0x00000000000061fc       0xb0 build/mini3d/mini3d.o
- .debug_info    0x00000000000062ac      0xff4 build/mini3d/3dmath.o
- .debug_info    0x00000000000072a0     0x2b3f build/mini3d/scene.o
- .debug_info    0x0000000000009ddf      0xf73 build/mini3d/shape.o
- .debug_info    0x000000000000ad52     0x2980 build/mini3d/render.o
- .debug_info    0x000000000000d6d2     0x8d28 build/luaglue.o
- .debug_info    0x00000000000163fa     0x634f build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_info    0x00000000000061fc       0xb4 build/mini3d/mini3d.o
+ .debug_info    0x00000000000062b0      0xff4 build/mini3d/3dmath.o
+ .debug_info    0x00000000000072a4     0x2684 build/mini3d/scene.o
+ .debug_info    0x0000000000009928      0xf31 build/mini3d/shape.o
+ .debug_info    0x000000000000a859     0x1938 build/mini3d/render.o
+ .debug_info    0x000000000000c191     0x8bfa build/luaglue.o
+ .debug_info    0x0000000000014d8b     0x634f build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_abbrev   0x0000000000000000     0x1d63
+.debug_abbrev   0x0000000000000000     0x1ccc
  .debug_abbrev  0x0000000000000000      0x2b0 build/main.o
- .debug_abbrev  0x00000000000002b0       0xaa build/mini3d/mini3d.o
- .debug_abbrev  0x000000000000035a      0x343 build/mini3d/3dmath.o
- .debug_abbrev  0x000000000000069d      0x60b build/mini3d/scene.o
- .debug_abbrev  0x0000000000000ca8      0x345 build/mini3d/shape.o
- .debug_abbrev  0x0000000000000fed      0x524 build/mini3d/render.o
- .debug_abbrev  0x0000000000001511      0x52c build/luaglue.o
- .debug_abbrev  0x0000000000001a3d      0x326 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_abbrev  0x00000000000002b0       0xad build/mini3d/mini3d.o
+ .debug_abbrev  0x000000000000035d      0x343 build/mini3d/3dmath.o
+ .debug_abbrev  0x00000000000006a0      0x614 build/mini3d/scene.o
+ .debug_abbrev  0x0000000000000cb4      0x348 build/mini3d/shape.o
+ .debug_abbrev  0x0000000000000ffc      0x46f build/mini3d/render.o
+ .debug_abbrev  0x000000000000146b      0x53b build/luaglue.o
+ .debug_abbrev  0x00000000000019a6      0x326 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_loc      0x0000000000000000     0x94f5
+.debug_loc      0x0000000000000000     0x6363
  .debug_loc     0x0000000000000000       0xac build/main.o
  .debug_loc     0x00000000000000ac      0xa5d build/mini3d/3dmath.o
- .debug_loc     0x0000000000000b09     0x2ca7 build/mini3d/scene.o
- .debug_loc     0x00000000000037b0      0x347 build/mini3d/shape.o
- .debug_loc     0x0000000000003af7     0x3dec build/mini3d/render.o
- .debug_loc     0x00000000000078e3     0x19f6 build/luaglue.o
- .debug_loc     0x00000000000092d9      0x21c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_loc     0x0000000000000b09     0x1fa4 build/mini3d/scene.o
+ .debug_loc     0x0000000000002aad      0x347 build/mini3d/shape.o
+ .debug_loc     0x0000000000002df4     0x19f4 build/mini3d/render.o
+ .debug_loc     0x00000000000047e8     0x195f build/luaglue.o
+ .debug_loc     0x0000000000006147      0x21c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_aranges  0x0000000000000000      0x3b8
+.debug_aranges  0x0000000000000000      0x370
  .debug_aranges
                 0x0000000000000000       0x20 build/main.o
  .debug_aranges
@@ -784,27 +976,27 @@ OUTPUT(build/pdex.elf elf32-littlearm)
  .debug_aranges
                 0x0000000000000040       0x50 build/mini3d/3dmath.o
  .debug_aranges
-                0x0000000000000090       0xd8 build/mini3d/scene.o
+                0x0000000000000090       0xd0 build/mini3d/scene.o
  .debug_aranges
-                0x0000000000000168       0x50 build/mini3d/shape.o
+                0x0000000000000160       0x48 build/mini3d/shape.o
  .debug_aranges
-                0x00000000000001b8       0x70 build/mini3d/render.o
+                0x00000000000001a8       0x40 build/mini3d/render.o
  .debug_aranges
-                0x0000000000000228      0x158 build/luaglue.o
+                0x00000000000001e8      0x150 build/luaglue.o
  .debug_aranges
-                0x0000000000000380       0x38 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+                0x0000000000000338       0x38 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_ranges   0x0000000000000000     0x1268
+.debug_ranges   0x0000000000000000      0xe00
  .debug_ranges  0x0000000000000000       0x10 build/main.o
  .debug_ranges  0x0000000000000010       0x10 build/mini3d/mini3d.o
  .debug_ranges  0x0000000000000020       0x58 build/mini3d/3dmath.o
- .debug_ranges  0x0000000000000078      0x598 build/mini3d/scene.o
- .debug_ranges  0x0000000000000610       0x58 build/mini3d/shape.o
- .debug_ranges  0x0000000000000668      0x510 build/mini3d/render.o
- .debug_ranges  0x0000000000000b78      0x6c8 build/luaglue.o
- .debug_ranges  0x0000000000001240       0x28 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_ranges  0x0000000000000078      0x420 build/mini3d/scene.o
+ .debug_ranges  0x0000000000000498       0x50 build/mini3d/shape.o
+ .debug_ranges  0x00000000000004e8      0x250 build/mini3d/render.o
+ .debug_ranges  0x0000000000000738      0x6a0 build/luaglue.o
+ .debug_ranges  0x0000000000000dd8       0x28 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_macro    0x0000000000000000     0x2af4
+.debug_macro    0x0000000000000000     0x31da
  .debug_macro   0x0000000000000000      0x296 build/main.o
  .debug_macro   0x0000000000000296      0xaa8 build/main.o
  .debug_macro   0x0000000000000d3e       0x22 build/main.o
@@ -846,46 +1038,51 @@ OUTPUT(build/pdex.elf elf32-littlearm)
  .debug_macro   0x0000000000001e32       0x16 build/main.o
  .debug_macro   0x0000000000001e48       0x22 build/main.o
  .debug_macro   0x0000000000001e6a      0x1e1 build/main.o
- .debug_macro   0x000000000000204b      0x2df build/luaglue.o
- .debug_macro   0x000000000000232a      0x174 build/luaglue.o
- .debug_macro   0x000000000000249e       0x1c build/luaglue.o
- .debug_macro   0x00000000000024ba       0x16 build/luaglue.o
- .debug_macro   0x00000000000024d0       0x10 build/luaglue.o
- .debug_macro   0x00000000000024e0       0x1c build/luaglue.o
- .debug_macro   0x00000000000024fc      0x15a build/luaglue.o
- .debug_macro   0x0000000000002656      0x1c6 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_macro   0x000000000000281c       0x8e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_macro   0x00000000000028aa       0x51 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_macro   0x00000000000028fb       0x5e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_macro   0x0000000000002959      0x10e build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_macro   0x0000000000002a67       0x8d build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_macro   0x000000000000204b       0x28 build/mini3d/mini3d.o
+ .debug_macro   0x0000000000002073       0x16 build/mini3d/mini3d.o
+ .debug_macro   0x0000000000002089      0x174 build/mini3d/mini3d.o
+ .debug_macro   0x00000000000021fd       0x10 build/mini3d/mini3d.o
+ .debug_macro   0x000000000000220d      0x277 build/mini3d/scene.o
+ .debug_macro   0x0000000000002484      0x10e build/mini3d/scene.o
+ .debug_macro   0x0000000000002592       0x8d build/mini3d/scene.o
+ .debug_macro   0x000000000000261f       0x1c build/mini3d/scene.o
+ .debug_macro   0x000000000000263b      0x1f7 build/mini3d/shape.o
+ .debug_macro   0x0000000000002832      0x240 build/mini3d/render.o
+ .debug_macro   0x0000000000002a72       0x8e build/mini3d/render.o
+ .debug_macro   0x0000000000002b00       0x51 build/mini3d/render.o
+ .debug_macro   0x0000000000002b51       0x5e build/mini3d/render.o
+ .debug_macro   0x0000000000002baf       0x10 build/mini3d/render.o
+ .debug_macro   0x0000000000002bbf      0x2df build/luaglue.o
+ .debug_macro   0x0000000000002e9e       0x1c build/luaglue.o
+ .debug_macro   0x0000000000002eba      0x15a build/luaglue.o
+ .debug_macro   0x0000000000003014      0x1c6 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_line     0x0000000000000000     0x592d
+.debug_line     0x0000000000000000     0x4e95
  .debug_line    0x0000000000000000      0x4bb build/main.o
  .debug_line    0x00000000000004bb       0xbd build/mini3d/mini3d.o
  .debug_line    0x0000000000000578      0x49b build/mini3d/3dmath.o
- .debug_line    0x0000000000000a13     0x1638 build/mini3d/scene.o
- .debug_line    0x000000000000204b      0x5d6 build/mini3d/shape.o
- .debug_line    0x0000000000002621     0x137b build/mini3d/render.o
- .debug_line    0x000000000000399c     0x1aee build/luaglue.o
- .debug_line    0x000000000000548a      0x4a3 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_line    0x0000000000000a13     0x1383 build/mini3d/scene.o
+ .debug_line    0x0000000000001d96      0x6f5 build/mini3d/shape.o
+ .debug_line    0x000000000000248b      0xaf0 build/mini3d/render.o
+ .debug_line    0x0000000000002f7b     0x1a77 build/luaglue.o
+ .debug_line    0x00000000000049f2      0x4a3 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 
-.debug_str      0x0000000000000000     0xbb0f
+.debug_str      0x0000000000000000     0xba87
  .debug_str     0x0000000000000000     0xade2 build/main.o
                                        0xb272 (size before relaxing)
- .debug_str     0x000000000000ade2      0x148 build/mini3d/mini3d.o
-                                        0x17e (size before relaxing)
- .debug_str     0x000000000000af2a      0x10a build/mini3d/3dmath.o
+ .debug_str     0x000000000000ade2       0xab build/mini3d/mini3d.o
+                                       0x320a (size before relaxing)
+ .debug_str     0x000000000000ae8d      0x224 build/mini3d/3dmath.o
                                         0x70b (size before relaxing)
- .debug_str     0x000000000000b034      0x52d build/mini3d/scene.o
-                                        0xc85 (size before relaxing)
- .debug_str     0x000000000000b561       0x7e build/mini3d/shape.o
-                                        0x761 (size before relaxing)
- .debug_str     0x000000000000b5df       0xc1 build/mini3d/render.o
-                                        0x807 (size before relaxing)
- .debug_str     0x000000000000b6a0      0x3e9 build/luaglue.o
-                                       0xba4e (size before relaxing)
- .debug_str     0x000000000000ba89       0x86 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_str     0x000000000000b0b1      0x51e build/mini3d/scene.o
+                                       0x8efd (size before relaxing)
+ .debug_str     0x000000000000b5cf       0x69 build/mini3d/shape.o
+                                       0x8911 (size before relaxing)
+ .debug_str     0x000000000000b638       0xbe build/mini3d/render.o
+                                       0x89b4 (size before relaxing)
+ .debug_str     0x000000000000b6f6      0x30b build/luaglue.o
+                                       0xb9f2 (size before relaxing)
+ .debug_str     0x000000000000ba01       0x86 build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
                                        0xa093 (size before relaxing)
 
 .comment        0x0000000000000000       0x79
@@ -942,27 +1139,27 @@ OUTPUT(build/pdex.elf elf32-littlearm)
  .ARM.attributes
                 0x00000000000003c4       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
 
-.debug_frame    0x0000000000000000     0x123c
+.debug_frame    0x0000000000000000     0x107c
  .debug_frame   0x0000000000000000       0x2c build/main.o
  .debug_frame   0x000000000000002c       0x20 build/mini3d/mini3d.o
  .debug_frame   0x000000000000004c      0x158 build/mini3d/3dmath.o
- .debug_frame   0x00000000000001a4      0x44c build/mini3d/scene.o
- .debug_frame   0x00000000000005f0       0xf8 build/mini3d/shape.o
- .debug_frame   0x00000000000006e8      0x2ac build/mini3d/render.o
- .debug_frame   0x0000000000000994      0x5a4 build/luaglue.o
- .debug_frame   0x0000000000000f38       0x5c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
- .debug_frame   0x0000000000000f94       0x38 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
- .debug_frame   0x0000000000000fcc       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
- .debug_frame   0x0000000000001010       0x68 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
- .debug_frame   0x0000000000001078       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
- .debug_frame   0x00000000000010ac       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
- .debug_frame   0x00000000000010e0       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
- .debug_frame   0x0000000000001124       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
- .debug_frame   0x0000000000001144       0x5c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
- .debug_frame   0x00000000000011a0       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
- .debug_frame   0x00000000000011c0       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
- .debug_frame   0x00000000000011e0       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
- .debug_frame   0x0000000000001200       0x3c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
+ .debug_frame   0x00000000000001a4      0x410 build/mini3d/scene.o
+ .debug_frame   0x00000000000005b4       0xe8 build/mini3d/shape.o
+ .debug_frame   0x000000000000069c      0x158 build/mini3d/render.o
+ .debug_frame   0x00000000000007f4      0x584 build/luaglue.o
+ .debug_frame   0x0000000000000d78       0x5c build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
+ .debug_frame   0x0000000000000dd4       0x38 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000e0c       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-qsort.o)
+ .debug_frame   0x0000000000000e50       0x68 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000000eb8       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_cos.o)
+ .debug_frame   0x0000000000000eec       0x34 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
+ .debug_frame   0x0000000000000f20       0x44 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
+ .debug_frame   0x0000000000000f64       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_cos.o)
+ .debug_frame   0x0000000000000f84       0x5c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
+ .debug_frame   0x0000000000000fe0       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_sin.o)
+ .debug_frame   0x0000000000001000       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_fabs.o)
+ .debug_frame   0x0000000000001020       0x20 /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
+ .debug_frame   0x0000000000001040       0x3c /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
 
 Cross Reference Table
 
@@ -999,7 +1196,6 @@ Scene3DNode_setRenderStyle                        build/mini3d/scene.o
                                                   build/luaglue.o
 Scene3DNode_setTransform                          build/mini3d/scene.o
                                                   build/luaglue.o
-Scene3DNode_setUsesZBuffer                        build/mini3d/scene.o
 Scene3DNode_setVisible                            build/mini3d/scene.o
                                                   build/luaglue.o
 Scene3D_deinit                                    build/mini3d/scene.o
@@ -1032,8 +1228,6 @@ Shape3D_retain                                    build/mini3d/shape.o
                                                   build/mini3d/scene.o
 Shape3D_setClosed                                 build/mini3d/shape.o
                                                   build/luaglue.o
-Shape3D_setOrderTableSize                         build/mini3d/shape.o
-                                                  build/luaglue.o
 Vector3D_normalize                                build/mini3d/3dmath.o
 __ieee754_rem_pio2f                               /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
                                                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)
@@ -1053,8 +1247,6 @@ cosf                                              /usr/local/playdate/gcc-arm-no
                                                   build/luaglue.o
 drawLine                                          build/mini3d/render.o
                                                   build/mini3d/scene.o
-drawLine_zbuf                                     build/mini3d/render.o
-                                                  build/mini3d/scene.o
 eventHandler                                      build/main.o
                                                   build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
 eventHandlerShim                                  build//Users/orllewin/Developer/PlaydateSDK-2.0.0/C_API/buildsupport/setup.o
@@ -1062,11 +1254,7 @@ fabsf                                             /usr/local/playdate/gcc-arm-no
                                                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-ef_rem_pio2.o)
 fillQuad                                          build/mini3d/render.o
                                                   build/mini3d/scene.o
-fillQuad_zbuf                                     build/mini3d/render.o
-                                                  build/mini3d/scene.o
 fillTriangle                                      build/mini3d/render.o
-                                                  build/mini3d/scene.o
-fillTriangle_zbuf                                 build/mini3d/render.o
                                                   build/mini3d/scene.o
 floorf                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_floor.o)
                                                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
@@ -1078,8 +1266,6 @@ m3d_realloc                                       build/mini3d/mini3d.o
                                                   build/mini3d/shape.o
                                                   build/mini3d/scene.o
 memset                                            /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-memset.o)
-                                                  build/mini3d/render.o
-                                                  build/mini3d/scene.o
                                                   build/mini3d/3dmath.o
 mini3d_setRealloc                                 build/mini3d/mini3d.o
                                                   build/luaglue.o
@@ -1089,8 +1275,6 @@ qsort                                             /usr/local/playdate/gcc-arm-no
                                                   build/mini3d/scene.o
 register3D                                        build/luaglue.o
                                                   build/main.o
-resetZBuffer                                      build/mini3d/render.o
-                                                  build/mini3d/scene.o
 scalbnf                                           /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_scalbn.o)
                                                   /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-kf_rem_pio2.o)
 sinf                                              /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a(lib_a-sf_sin.o)

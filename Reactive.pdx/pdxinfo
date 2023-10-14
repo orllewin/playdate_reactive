@@ -4,5 +4,6 @@ version=3.0.1
 description=3D audio reactive graphics
 bundleID=orllewin.playdate.reactive
 buildNumber=31
+imagePath=Images
 pdxversion=20000
-buildtime=750411406
+buildtime=750613979

@@ -12,11 +12,11 @@
 // Generally, you'd only need one of these, as they're two ways of solving the same problem:
 
 // The Z buffer is slower but more accurate, and can handle intersecting geometry.
-#define ENABLE_Z_BUFFER 1
+#define ENABLE_Z_BUFFER 0
 
 // The ordering table is faster but can produce glitches if the table is too small or there's
 // intersecting geometry in the scene.
-#define ENABLE_ORDERING_TABLE 1
+#define ENABLE_ORDERING_TABLE 0
 
 #include <stddef.h>
 

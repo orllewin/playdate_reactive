@@ -21,22 +21,17 @@ local yLocation = 240
 
 function Intro:init()
 	Intro.super.init(self)
-	
-	playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
-	
 	self.gBigFont = playdate.graphics.font.new("Fonts/pixarlmed")
 end
 
 function Intro:update()
-
-	
-	gfx.setColor(gfx.kColorBlack)
+	gfx.setColor(gfx.kColorWhite)
 	gfx.fillRect(xLocation-400, yLocation-240, 400, 240)
 	cameraZ -= 0.3
 
 	t += 0.08
 	
-	gfx.setColor(gfx.kColorWhite)
+	gfx.setColor(gfx.kColorBlack)
 	self.gBigFont:drawTextAligned("ORLLEWIN", xLocation - 200, yLocation - 130, kTextAlignment.center)
 	for i = 40, 0, -1  do
 	

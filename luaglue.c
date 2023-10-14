@@ -344,10 +344,7 @@ static int node_setWireframeColor(lua_State* L)
 
 	RenderStyle style = Scene3DNode_getRenderStyle(node);
 
-	if ( color )
-		style |= kRenderWireframeWhite;
-	else
-		style &= ~kRenderWireframeWhite;
+	
 	
 	Scene3DNode_setRenderStyle(node, style);
 	
