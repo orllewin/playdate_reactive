@@ -3,6 +3,7 @@ import "CoreLibs/object"
 import 'CoreLibs/timer'
 import 'CoreLibs/animator'
 import "CoreLibs/sprites"
+import "settings_popup"
 import "intro"
 
 local graphics <const> = playdate.graphics
@@ -11,15 +12,15 @@ local cos <const> = math.cos
 local sin <const> = math.sin
 local random <const> = math.random
 
+gMenuShowing = false
+
 playdate.startAccelerometer()
 sound.micinput.startListening()
 
 local orbImage = playdate.graphics.image.new("Images/orb_white")
-local orbInverted = orbImage:invertedImage()
 local orbSprite = playdate.graphics.sprite.new(orbImage)
 orbSprite:moveTo(200, 120)
 orbSprite:add()
-local orbAngle = 1
 
 CAM_ORIGIN = 40
 SHAPE_POLYGONS = 6
@@ -106,6 +107,7 @@ function playdate.update()
 	graphics.clear(graphics.kColorWhite)
 	
 	playdate.timer.updateTimers()
+
 	renderOrb()
 	
 	
@@ -121,6 +123,10 @@ function playdate.update()
 	updateWireframeStatus()
 	renderOrbit()
 	renderShape()
+	
+	if(gMenuShowing)then
+		playdate.graphics.sprite.update()
+	end
 	
 
 	-- INTRO/IDENT ----------------------------------------------------------------
@@ -147,6 +153,7 @@ function playdate.update()
 			toastActive = false
 		end
 	end
+	
 end
 
 -- Not. this only deactivates roll. Activation happens in reactiveMode() if a louder than average sound event happens.
@@ -318,20 +325,22 @@ end
 function renderOrb()
 	
 	if (spriteMode == DisplayModes.ALWAYS_OFF) then
-		if(random() < 0.01) then 
+		if(random() < 0.05) then 
 			spriteMode = DisplayModes.ALWAYS_ON
+			--wireframe look crap against the sprite so turn it off:
+			if(wireframeMode == DisplayModes.INTERMITTENT_ON) then
+				wireframeMode = DisplayModes.INTERMITTENT_OFF	
+			end
 		end
 	else
-		if(random() < 0.02) then 
+		if(random() < 0.05) then 
 			spriteMode = DisplayModes.ALWAYS_OFF
 		end
 	end
 	
 	if (spriteMode == DisplayModes.ALWAYS_ON) then
-		playdate.graphics.sprite.update()
-		orbAngle += 0.5
-		orbSprite:setRotation(orbAngle)
-		orbSprite:setScale(map(audScale, 1, 15, 0.5, 1.5))
+		--playdate.graphics.sprite.update()
+		orbSprite:setScale(map(audScale, 1, 15, 1.25, 2.5))
 	end
 end
 
@@ -412,11 +421,18 @@ function playdate.BButtonDown()
 end
 
 function playdate.AButtonDown() 
-	if playdate.display.getInverted() == true then
-		playdate.display.setInverted(false)		
-	else
-		playdate.display.setInverted(true)
-	end
+	local screenshot = playdate.graphics.getDisplayImage()
+	local settingsPopup = SettingsPopup(screenshot)
+	orbSprite:remove()
+	
+	settingsPopup:show(function(item) 
+		print("Settings item selected: " .. item)
+	end)
+	-- if playdate.display.getInverted() == true then
+	-- 	playdate.display.setInverted(false)		
+	-- else
+	-- 	playdate.display.setInverted(true)
+	-- end
 end
 
 
