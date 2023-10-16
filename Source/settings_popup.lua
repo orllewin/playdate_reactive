@@ -7,7 +7,7 @@ local width = 175
 local height = 122
 
 gCornerRad = 5
-gModuleMenuZ      = 29000
+gModuleMenuZ = 29000
 
 function generateModBackgroundWithShadow(w, h)
 	local gfx <const> = playdate.graphics
@@ -53,25 +53,53 @@ end
 function SettingsPopup:init(screenshot)
 	SettingsPopup.super.init(self)
 	--todo - use screenshot as background
-	local backgroundImage = generateModBackgroundWithShadow(width, height)
-	local bgW, bgH = backgroundImage:getSize()	
+	playdate.graphics.pushContext(screenshot)
+		local menuBackground = generateModBackgroundWithShadow(175, 122)
+		local bgW, bgH = menuBackground:getSize()	
+		menuBackground:draw(295 - bgW/2, 175 - bgH/2)
+	
+	playdate.graphics.popContext()
+	
 	--self:setIgnoresDrawOffset(true)
 	self:setZIndex(gModuleMenuZ)
-	self:setImage(backgroundImage)
-	self:moveTo(295, 175)
-
+	self:setImage(screenshot)
+	self:moveTo(200, 120)
 end
 
 function SettingsPopup:show(onSelect)
 	self:add()
 	
 	gMenuShowing = true
-	
-	self:moveTo(305, 170)
-	
+
 	self.mods = {
 		{
-			category = "Main Shape",
+			category = "Reactive Audio",
+			mods = {
+				{
+					label = "On",
+					type = "reactive_on"
+				},
+				{
+					label = "Off",
+					type = "reactive_off"
+				}
+			}
+		},
+		{
+			category = "Display Mode",
+			mods = {
+				{
+					label = "Light",
+					type = "screen_mode_light"
+				},
+				{
+					label = "Dark",
+					type = "screen_mode_dark"
+				}
+			}
+		},
+		{
+			category = "3D Shape",
 			mods = {
 				{
 					label = "On",
@@ -104,9 +132,26 @@ function SettingsPopup:show(onSelect)
 				},
 			}
 		},
+		{
+			category = "Wireframe Mode",
+			mods = {
+				{
+					label = "On",
+					type = "wireframe_on"
+				},
+				{
+					label = "Off",
+					type = "wireframe_off"
+				},
+				{
+					label = "Random",
+					type = "wireframe_random"
+				},
+			}
+		}
 	}
-	
-	self.moduleList = TextList(self.mods, self.x - width/2 + 8, self.y - height/2 + 8, width - 16, height-2, 18, nil, function(index, item)
+
+	self.moduleList = TextList(self.mods, 216, 120, width - 16, height-2, 18, nil, function(index, item)
 		if item.category ~= nil then
 			print("Selected " .. item.category)
 			self:updateCategory(item)

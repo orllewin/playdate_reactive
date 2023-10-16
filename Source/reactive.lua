@@ -12,6 +12,9 @@ local cos <const> = math.cos
 local sin <const> = math.sin
 local random <const> = math.random
 
+local font = playdate.graphics.font.new("Fonts/parodius_ext")
+playdate.graphics.setFont(font)
+
 gMenuShowing = false
 
 playdate.startAccelerometer()
@@ -426,7 +429,37 @@ function playdate.AButtonDown()
 	orbSprite:remove()
 	
 	settingsPopup:show(function(item) 
-		print("Settings item selected: " .. item)
+		print("Settings item selected: " .. item.type)
+		local action = item.type
+		if(action == "reactive_on") then
+			reactiveMode = DisplayModes.ALWAYS_ON
+			toast("Reactive audio on")
+		elseif(action == "reactive_off") then
+			reactiveMode = DisplayModes.ALWAYS_OFF
+			toast("Reactive audio off")
+		elseif(action == "screen_mode_light") then
+			
+		elseif(action == "screen_mode_dark") then
+				
+		elseif(action == "main_shape_on") then
+					
+		elseif(action == "main_shape_off") then
+						
+		elseif(action == "main_shape_random") then
+							
+		elseif(action == "orbit_on") then
+								
+		elseif(action == "orbit_off") then
+			
+		elseif(action == "orbit_random") then
+				
+		elseif(action == "wireframe_on") then
+					
+		elseif(action == "wireframe_off") then
+						
+		elseif(action == "wireframe_random") then
+			
+		end
 	end)
 	-- if playdate.display.getInverted() == true then
 	-- 	playdate.display.setInverted(false)		
